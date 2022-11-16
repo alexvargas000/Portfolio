@@ -8,6 +8,11 @@ body, html {
   font-family: Arial;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Style tab links */
 .tablink {
   background-color: #555;
