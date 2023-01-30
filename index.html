@@ -7,15 +7,21 @@
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<button class="tablink" onmouseover="openPage('Home', this, '#ffc756')">Home</button>
+<button class="tablink" onmouseover="openPage('News', this, '#ffc756')" id="defaultOpen">News</button>
+<button class="tablink" onmouseover="openPage('Contact', this, '#ffc756')">Contact</button>
+<button class="tablink" onmouseover="openPage('About', this, '#ffc756')">About</button>
 
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
   <IMG src="Assets/Videos/Gifs/Ghost Cat.gif">
   <p>Home is where the heart is..</p>
+
+  <select>
+    <option value="Option 1">Option 1</option>
+    <option value="Option 2">Option 2</option>
+    <option value="Option 3">Option 3</option>
+  </select>
 </div>
 
 <div id="News" class="tabcontent">
