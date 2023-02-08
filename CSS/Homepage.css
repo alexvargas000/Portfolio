@@ -1,5 +1,5 @@
 *{
- // border: 1px solid yellow;
+  //border: 1px solid yellow;
   background-color: #fff9ea;
   box-sizing: border-box;
 }
@@ -11,18 +11,19 @@ p{
  display: inline-block;
 }
 
-.left-tab{
+.tab{
   position: relative;
   display: inline-block;
   background-color: #284ca0;
   height: 1000px;
   width: 30%;
   text-align: center;
-  position: sticky;
-  top: 30px;
+  position: relative;
+  left: -10px;
+  margin: 0;
 }
 
-.left-tab p{
+.tab p{
   background-color: #284ca0;
   color: #fff9ea;
   font-size: 30px;
@@ -37,7 +38,26 @@ p{
   top: 0;
   left: 0;
   z-index: 10;
+  text-align: right;
+}
+
+ul{
+  background-color: #284ca0;
+}
+
+.Header li{
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  background-color: #284ca0;
+  color: #fff9ea;
+  width: 90px;
+  right: 20px;
   text-align: center;
+}
+
+.Header li:hover{
+  color: black;
 }
 
 .Header header{
