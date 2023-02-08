@@ -1,65 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="CSS/Homepage.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alex's Portfolio</title>
-
+  <title>Alex's Portfolio</title>
+  <link href="CSS/Homepage.css" rel="stylesheet">
 </head>
 <body>
-
-<button class="tablink" onmouseover="openPage('Home', this, '#ffc756')">Home</button>
-<button class="tablink" onmouseover="openPage('News', this, '#ffc756')" id="defaultOpen">News</button>
-<button class="tablink" onmouseover="openPage('Contact', this, '#ffc756')">Contact</button>
-<button class="tablink" onmouseover="openPage('About', this, '#ffc756')">About</button>
-
-<div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <IMG src="Assets/Videos/Gifs/Ghost Cat.gif">
-  <p>Home is where the heart is..</p>
-
-  <select>
-    <option value="Option 1">Option 1</option>
-    <option value="Option 2">Option 2</option>
-    <option value="Option 3">Option 3</option>
-  </select>
-</div>
-
-<div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Some news this fine day!!</p> 
-</div>
-
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
-</div>
-
-<div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
-</div>
-
-<script>
-function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
+<p>Hello World</p>
 
 
-   
+
+
+
+
+
 </body>
 </html> 
