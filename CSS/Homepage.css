@@ -143,7 +143,13 @@ ul{
   left: -10px;
 }
 
-.drop-down li:hover{
+.menu a{
+  background-color: #284ca0;
+  color: #fff9ea;
+  text-decoration: none;
+}
+
+.menu a:hover{
   color: #ffc756;
 }
 
