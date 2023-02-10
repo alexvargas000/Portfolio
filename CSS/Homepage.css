@@ -1,166 +1,105 @@
-@font-face {
-  font-family: "Six Caps";
-  src: url(CSS/Fonts/SixCaps-Regular.ttf) format(truetype);
-}
-
 *{
-  //border: 1px solid yellow;
-  background-color: #fff9ea;
-  box-sizing: border-box;
+  //border: 1px solid red;
 }
 
-p{
- font-size: 50px;
- text-align: center;
- color: black;
- display: inline-block;
+/* Cat gif background */
+
+body{
+  background-image: url("/Assets/Videos/Gifs/Ghost Cat.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-ul{
-  background-color: #284ca0;
-  list-style-type: none;
-}
+/* Header */
 
-
-.tab{
-  position: relative;
-  display: inline-block;
-  background-color: #284ca0;
-  height: 1000px;
-  width: 30%;
-  text-align: center;
-  position: relative;
-  left: -10px;
-  margin: 0;
-}
-
-.tab p{
-  background-color: #284ca0;
-  color: #fff9ea;
-  font-size: 30px;
-  top: 20px;
-}
-
-/* header */
-
-.header{
+#Header{
+  display: block;
   position: fixed;
+  height: 5em;
+  overflow: scroll;
   width: 100%;
-  height: 8%;
-  background-color: #284ca0;
-  top: 0;
   left: 0;
-  z-index: 30;
-  text-align: right;
+  top: 0;
+  background-color: #284ca030;
 }
 
-.header p{
-  position: fixed;
-  display: inline-block;
-  font-size: 20px;
-  background-color: #284ca0;
-  color: #fff9ea;
-  top: 4px;
-  right: 210px;
-  padding: 0 20px;
-}
-
-.header li{
-  display: inline-block;
+#Header img{
   position: relative;
-  font-size: 20px;
-  background-color: #284ca0;
+  display: inline-block;
+  height: 3em;
+  width: 2em;
+  top: .7em;
+  margin: 0 .5em;
+}
+
+#Header h1{
+  display: inline-block;
   color: #fff9ea;
-  width: 90px;
-  right: 20px;
-  text-align: center;
-  transition: color .2s linear;
-  top: 7px;
 }
 
-.header li:hover{
-  color: #ffc756;
-}
-
-/* logo */
-
-.logo .logo-text{
-  display: inline;
-  position: absolute;
-  font-family: "Six Caps";
-  font-size: 40px;
-  right: 85%;
-  top: 5px;
-  background-color: #284ca0;
-  color: #fff9ea;
-  margin: 0;
-  height: 50px;
-  letter-spacing: .05em;
-}
-
-.logo img{
-  display: inline;
+#Header ul{
   position: fixed;
-  top: 7px;
-  right: 95%;
-  width: 2%;
-  height: auto;
-  z-index: 10;
-  background-color: #284ca0;
+  float: right;
+  list-style-type: none;
+  top: .7em;
+  right: 0em;
+  font-size: 20px;
+}
+
+#Header li{
+  display: inline;
+  color: #fff9ea;
+  margin: auto 1em;
+  transition: color 100ms linear;
+}
+
+#Header li:hover{
+  color: #ffc756;
 }
 
 /* "Works" drop down menu */
 
-.drop-down{
-  display: inline-block;
+
+
+#works-nav li{
+  display: block;
+  position: relative;
+  text-align: center;
+  right: 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  min-width: 3em;
+}
+
+#works-nav ul{
+  background-color: #284ca030;
   position: fixed;
-  top: 35px;
-  right: 0px;
-  text-align: center;
-  height: 0px;
-}
-
-.drop-down ul{
-  height: 0px;
-  transition: height 700ms ease-out;
+  right: 13.7em;
+  top: 3em;
+  width: 10%;
   overflow: hidden;
-  z-index: 10;
-  width: 35%;
-  position: relative;
-  top: 0;
-  left: 110px;
+  height: 0em;
+  transition: height 500ms ease-in .7s;
 }
 
-.drop-down li{
-  background-color: rgba(0,0,0,0);
-  color: #fff9ea;
-  font-size: 20px;
-  margin-top: 30px;
-  margin-right: 40px;
-  transition: opacity 100ms linear;
-  text-align: center;
-  position: relative;
-  left: -10px;
+#Header #open{
+  background-color: transparent;
+  display: inline-block;
+  height: 4em;
+  width: 7em;
+  position: fixed;
+  top: 1em;
+  right: 18.7em;
 }
 
-.menu a{
-  background-color: #284ca0;
-  color: #fff9ea;
-  text-decoration: none;
+#Header #open:hover ~ #works-nav ul{
+  height: 11em;
+  transition: height 500ms ease-out;
 }
 
-.menu a:hover{
-  color: #ffc756;
+#works-nav:hover ul{
+  height: 11em;
+  transition: height 500ms ease-out;
 }
 
-.drop-down ul:hover{
-  height: 200px;
-}
-
-#open:hover + ul{
-  height: 200px;
-}
-
-#open:hover{
-  color: #ffc756;
-}
+/* Drop down menu end */
