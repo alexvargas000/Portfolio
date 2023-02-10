@@ -1,10 +1,17 @@
+@font-face {
+  font-family: "Downtown";
+  src: url("/CSS/Fonts/Forum-Regular.ttf");
+}
+
 *{
   //border: 1px solid red;
+  font-family: "Downtown";
 }
 
 /* Cat gif background */
 
 body{
+  background-color: #fff9ea;
   background-image: url("/Assets/Videos/Gifs/Ghost Cat.gif");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -21,6 +28,7 @@ body{
   left: 0;
   top: 0;
   background-color: #284ca030;
+  z-index: 10;
 }
 
 #Header img{
@@ -103,3 +111,17 @@ body{
 }
 
 /* Drop down menu end */
+
+/* 3D Works Images */
+#ED-works{
+  position: relative;
+  top: 45.4em;
+  width: 100%;
+}
+
+#ED-works img{
+  width: 100%;
+  position: relative;
+  display: block;
+  left: 0;
+}
