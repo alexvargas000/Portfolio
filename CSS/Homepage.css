@@ -91,6 +91,7 @@ body{
   overflow: hidden;
   height: 0em;
   transition: height 500ms ease-in .7s;
+  min-width: 5em;
 }
 
 #Header #open{
