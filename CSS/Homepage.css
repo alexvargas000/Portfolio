@@ -113,14 +113,13 @@ body{
   transition: height 500ms ease-out;
 }
 
-/* Drop down menu end */
-
 /* 3D Works Images */
+
 #ED-works{
   position: relative;
   width: 100%;
-  height: 100em;
-
+  height: auto;
+  margin-bottom: 0;
 }
 
 #ED-works img{
