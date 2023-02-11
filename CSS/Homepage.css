@@ -82,6 +82,16 @@ body{
   min-width: 3em;
 }
 
+#works-nav a{
+  text-decoration: none;
+  color: #fff9ea;
+  transition: color 100ms linear;
+}
+
+#works-nav a:hover{
+  color: #ffc756;
+}
+
 #works-nav ul{
   background-color: #284ca030;
   position: fixed;
@@ -124,6 +134,22 @@ body{
 }
 
 #ED-works img{
+  width: 100%;
+  position: relative;
+  display: block;
+  left: 0;
+}
+
+/* Design Works Images */
+
+#Design{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+#Design img{
   width: 100%;
   position: relative;
   display: block;
