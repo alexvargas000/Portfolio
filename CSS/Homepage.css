@@ -8,6 +8,10 @@
   font-family: "Downtown";
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Cat gif background */
 
 body{
