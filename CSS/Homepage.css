@@ -160,6 +160,20 @@ body{
   left: 0;
 }
 
+#Coding{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+#Coding img{
+  width: 100%;
+  position: relative;
+  display: block;
+  left: 0;
+}
+
 
 
 
