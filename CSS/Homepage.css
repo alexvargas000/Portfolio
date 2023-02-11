@@ -29,7 +29,7 @@ body{
 #Header{
   display: block;
   position: fixed;
-  height: 5em;
+  height: auto;
   overflow: scroll;
   width: 100%;
   left: 0;
@@ -100,7 +100,7 @@ body{
   background-color: #284ca030;
   position: fixed;
   right: 13.7em;
-  top: 3em;
+  top: 2.9em;
   width: 10%;
   overflow: hidden;
   height: 0em;
@@ -134,7 +134,7 @@ body{
   position: relative;
   width: 100%;
   height: auto;
-  margin-bottom: 0;
+  display: block;
 }
 
 #ED-works img{
@@ -158,4 +158,84 @@ body{
   position: relative;
   display: block;
   left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phone version css */
+
+@media only screen and (max-width: 500px){
+  
+/* Header */
+
+#Header img{
+  position: relative;
+  display: inline-block;
+  height: 3em;
+  width: 2em;
+  left: 30%;
+  top: .7em;
+  margin: 0 .5em;
+}
+
+#Header h1{
+  position: relative;
+  left: 30%;
+}
+
+#Header ul{
+  position: fixed;
+  top: 3em;
+  right: 2em;
+}
+
+#Header{
+  height: 7em;
+}
+
+#Header #open{
+  background-color: transparent;
+  display: inline-block;
+  height: 2em;
+  width: 7em;
+  position: fixed;
+  top: 5em;
+  right: 21.7em;
+}
+
+/* drop down */
+
+#works-nav ul{
+  background-color: #284ca030;
+  position: fixed;
+  right: 16em;
+  top: 4.55em;
+  width: 10%;
+  overflow: hidden;
+  height: 0em;
+  transition: height 500ms ease-in .7s;
+  min-width: 5em;
+}
+
+
+
 }
