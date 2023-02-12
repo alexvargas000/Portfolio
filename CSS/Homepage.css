@@ -64,7 +64,7 @@ body{
 #Header li{
   display: inline;
   color: #fff9ea;
-  margin: auto 1em;
+  margin: auto 1.07em;
   transition: color 100ms linear;
 }
 

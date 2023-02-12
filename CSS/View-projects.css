@@ -34,7 +34,7 @@
     width: 100%;
     left: 0;
     top: 0;
-    background-color: #284ca030;
+    background-color: #284ca0;
     z-index: 10;
   }
   
@@ -64,7 +64,7 @@
   #Header li{
     display: inline;
     color: #fff9ea;
-    margin: auto 1em;
+    margin: auto 1.07em;
     transition: color 100ms linear;
   }
   
@@ -97,7 +97,7 @@
   }
   
   #works-nav ul{
-    background-color: #284ca030;
+    background-color: #284ca0;
     position: fixed;
     right: 13.7em;
     top: 2.9em;
@@ -127,8 +127,46 @@
     height: 11em;
     transition: height 500ms ease-out;
   }
+
+  /* Screenshot Gallery */
   
-  
+  #gallery{
+    //border: 1px solid red;
+    display: flex;
+    position: relative;
+    top: 5em;
+  }
+
+  #gallery img{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    border: 3px dashed #ffc756;
+  }
+
+  /* Project Title */
+
+  #project-title{
+    display: block;
+    position: relative;
+    //border: 1px solid blue;
+    text-align: center;
+    top: 5em;
+  }
+
+  /* Project Info */
+
+  #project-info{
+    display: block;
+    //border: 1px solid red;
+    text-align: center;
+    position: relative;
+    top: 5em;
+  }
+
+  #project-info p{
+    font-size: 2em;
+  }
   
   
   
@@ -195,7 +233,7 @@
   /* drop down */
   
   #works-nav ul{
-    background-color: #284ca030;
+    background-color: #284ca080;
     position: fixed;
     right: 16em;
     top: 4.55em;
