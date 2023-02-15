@@ -36,6 +36,8 @@
     top: 0;
     background-color: #284ca0;
     z-index: 10;
+
+    box-shadow: 2px 2px 5px 1px gray;
   }
   
   #Header img{
@@ -139,44 +141,57 @@
     transition: height 500ms ease-out;
   }
 
-  /* Screenshot Gallery */
-  
-  #gallery{
-    //border: 1px solid red;
-    display: flex;
-    position: relative;
-    top: 5em;
-  }
-
-  #gallery img{
-    width: 30%;
-    margin: 0 auto;
-    position: relative;
-    border: 3px dashed #ffc756;
-  }
-
-  /* Project Title */
-
-  #project-title{
-    display: block;
-    position: relative;
-    //border: 1px solid blue;
-    text-align: center;
-    top: 5em;
-  }
-
   /* Project Info */
 
-  #project-info{
-    display: block;
-    //border: 1px solid red;
-    text-align: center;
+  #Project-info{
+    border: 1px solid red;
+    display: flex;
     position: relative;
-    top: 5em;
+    margin: 0 auto;
+    top: 6em;
+    width: 98%;
+    height: auto;
+    overflow: hidden;
+
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
-  #project-info p{
-    font-size: 2em;
+  .project-pictures{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    flex-shrink: 0;
+  }
+
+  .project-pictures img{
+    width: 100%;
+  }
+
+  .project-text{
+    width: 65%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    text-align: center;
+
+
+    flex-shrink: 3;
+  }
+
+  .project-text p{
+    font-size: 1.3em;
+    margin: 0 .7em;
   }
   
   
