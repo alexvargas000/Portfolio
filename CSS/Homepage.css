@@ -72,6 +72,17 @@ body{
   color: #ffc756;
 }
 
+.Nav a:hover{
+  color: #ffc756;
+}
+
+.Nav a{
+  display: inline;
+  color: #fff9ea;
+  transition: color 100ms linear;
+  text-decoration: none;
+}
+
 /* "Works" drop down menu */
 
 
