@@ -141,6 +141,55 @@
     transition: height 500ms ease-out;
   }
 
+  /* Project Title */
+
+  .project-title{
+    width: 60%;
+    background-color: lightgray;
+    text-align: right;
+    margin: .7em 0;
+  }
+
+  .project-title h1{
+    margin: 2em;
+  }
+
+  /* Project Sub Headers */
+
+  .sub-header-1{
+   position: relative;
+  }
+
+  .sub-header-1 h1{
+    float: right;
+    background-color: lightcoral;
+    padding: 1em;
+    margin: 1em 0;
+    width: 6.5em;
+    transition: width 450ms ease-out;
+  }
+
+  .sub-header-1 h1:hover{
+    width: 25em;
+  }
+
+  .sub-header-2{
+    position: relative;
+   }
+ 
+   .sub-header-2 h1{
+     text-align: right;
+     background-color: lightcoral;
+     padding: 1em;
+     margin: 1em 0;
+     width: 8em;
+     transition: width 450ms ease-out;
+   }
+ 
+   .sub-header-2 h1:hover{
+     width: 25em;
+   }
+
   /* Project Info */
 
   #Project-info{
@@ -173,17 +222,6 @@
 
   .project-pictures img{
     width: 100%;
-  }
-
-  .project-title{
-    width: 70%;
-    background-color: lightgray;
-    text-align: right;
-    margin: .7em 0;
-  }
-
-  .project-title h1{
-    margin: 2em;
   }
 
   .project-text{
