@@ -166,7 +166,7 @@ body{
   margin-top: 1.5em;
 
   position: absolute;
-  right: 10%;
+  right: 12%;
   bottom: 30%;
 
 }
@@ -196,9 +196,16 @@ body{
 }
 
 .ED-project-1{
- // border: 1px solid red;
   position: relative;
 }
+
+.ED-project-2{
+   position: relative;
+ }
+
+ .ED-project-3{
+   position: relative;
+ }
 
 .project-link a{
   color: #fff9ea;

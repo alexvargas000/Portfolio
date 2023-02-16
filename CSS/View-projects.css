@@ -141,10 +141,12 @@
     transition: height 500ms ease-out;
   }
 
+  /* Project Information Page Starts */
+
   /* Project Title */
 
   .project-title{
-    width: 57%;
+    width: 60%;
     background-color: lightgray;
     text-align: right;
     margin: 1em 0;
@@ -190,7 +192,79 @@
      width: 55%;
    }
 
-  /* Project Info */
+   /* Project Pictures */
+  
+   .project-picture-one{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+  }
+
+
+   .project-picture-one img{
+    width: 100%;
+    position: relative;
+  }
+
+  .project-picture-two{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    display: inline-block;
+
+    top: 2%;
+    right: 90%;
+
+    transition: all 450ms ease-in-out;
+  }
+
+  .project-picture-two img{
+    width: 100%;
+  }
+
+  .project-picture-two:hover{
+    right: 30%;
+    top: 1%;
+  }
+
+  .project-picture-three{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    display: inline-block;
+
+    top: 2%;
+    left: 90%;
+
+    transition: all 450ms ease-in-out;
+  }
+
+  .project-picture-three img{
+    width: 100%;
+  }
+
+  .project-picture-three:hover{
+    left: 30%;
+    top: 1%;
+  }
+
+   /* Project Info */
 
   #Project-info{
     display: flex;
@@ -205,26 +279,8 @@
     justify-content: space-evenly;
   }
 
-  .project-pictures{
-    width: 70%;
-    height: auto;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 20px;
-    background-color: white;
-    text-align: center;
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-    flex-shrink: 0;
-  }
-
-  .project-pictures img{
-    width: 100%;
-  }
-
   .project-text{
-    width: 65%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     margin-top: .3em;
