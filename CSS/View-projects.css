@@ -144,14 +144,14 @@
   /* Project Title */
 
   .project-title{
-    width: 60%;
+    width: 57%;
     background-color: lightgray;
     text-align: right;
-    margin: .7em 0;
+    margin: 1em 0;
   }
 
   .project-title h1{
-    margin: 2em;
+    margin: 1em 1em;
   }
 
   /* Project Sub Headers */
@@ -170,7 +170,7 @@
   }
 
   .sub-header-1 h1:hover{
-    width: 25em;
+    width: 55%;
   }
 
   .sub-header-2{
@@ -187,18 +187,17 @@
    }
  
    .sub-header-2 h1:hover{
-     width: 25em;
+     width: 55%;
    }
 
   /* Project Info */
 
   #Project-info{
-    border: 1px solid red;
     display: flex;
     position: relative;
     margin: 0 auto;
     top: 6em;
-    width: 98%;
+    width: 100%;
     height: auto;
     overflow: hidden;
 

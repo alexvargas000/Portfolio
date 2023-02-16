@@ -155,6 +155,69 @@ body{
   left: 0;
 }
 
+/* 3D Works Links Code */
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 1em solid transparent;
+  border-bottom: 1em solid transparent;
+  border-left: 1em solid beige;
+  margin-top: 1.5em;
+
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+
+}
+
+.project-link{
+  position: absolute;
+  left: 0%;
+  bottom: 70%;
+  width: 2%;
+  height: 5em;
+  background-color: #284ca030;
+
+  text-align: center;
+
+  overflow: hidden;
+
+  transition: width 450ms ease-out;
+}
+
+.project-link:hover{
+  width: 10%;
+}
+
+.project-link:hover a{
+  opacity: 1;
+  transition: opacity 500ms linear 300ms;
+}
+
+.ED-project-1{
+  border: 1px solid red;
+  position: relative;
+}
+
+.project-link a{
+  color: #fff9ea;
+  font-size: 1.2em;
+  text-decoration: none;
+  position: absolute;
+  right: 35%;
+  top: 35%;
+  opacity: 0;
+
+  transition: opacity 10ms linear 0ms;
+}
+
+.project-link a:hover{
+  color: #ffc756;
+}
+
+
+
 /* Design Works Images */
 
 #Design{
