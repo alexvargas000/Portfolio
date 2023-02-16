@@ -165,8 +165,8 @@
   .sub-header-1 h1{
     float: right;
     background-color: #e74425;
-    padding: 1em;
-    margin: 1em 0;
+    padding: .5em;
+    margin: .2em 0;
     width: 6.5em;
     transition: width 450ms ease-out;
   }
@@ -182,8 +182,8 @@
    .sub-header-2 h1{
      text-align: right;
      background-color: #e74425;
-     padding: 1em;
-     margin: 1em 0;
+     padding: .5em;
+     margin: .2em 0;
      width: 8em;
      transition: width 450ms ease-out;
    }
@@ -204,12 +204,18 @@
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
+
+    transition: all 400ms ease-in-out;
   }
 
 
    .project-picture-one img{
     width: 100%;
     position: relative;
+  }
+
+  .project-picture-one:hover{
+    width: 75%;
   }
 
   .project-picture-two{
@@ -223,7 +229,7 @@
     position: absolute;
     display: inline-block;
 
-    top: 2%;
+    top: 1%;
     right: 90%;
 
     transition: all 450ms ease-in-out;
@@ -235,7 +241,7 @@
 
   .project-picture-two:hover{
     right: 30%;
-    top: 1%;
+    top: .5%;
   }
 
   .project-picture-three{
@@ -249,7 +255,7 @@
     position: absolute;
     display: inline-block;
 
-    top: 2%;
+    top: 1%;
     left: 90%;
 
     transition: all 450ms ease-in-out;
@@ -261,7 +267,7 @@
 
   .project-picture-three:hover{
     left: 30%;
-    top: 1%;
+    top: .5;
   }
 
    /* Project Info */
