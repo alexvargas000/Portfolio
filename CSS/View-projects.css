@@ -147,7 +147,7 @@
 
   .project-title{
     width: 60%;
-    background-color: lightgray;
+    background-color: #e74425;
     text-align: right;
     margin: 1em 0;
   }
@@ -164,7 +164,7 @@
 
   .sub-header-1 h1{
     float: right;
-    background-color: lightcoral;
+    background-color: #e74425;
     padding: 1em;
     margin: 1em 0;
     width: 6.5em;
@@ -181,7 +181,7 @@
  
    .sub-header-2 h1{
      text-align: right;
-     background-color: lightcoral;
+     background-color: #e74425;
      padding: 1em;
      margin: 1em 0;
      width: 8em;
@@ -279,13 +279,16 @@
     justify-content: space-evenly;
   }
 
+  #Project-info h1{
+    color: #fff9ea;
+  }
+
   .project-text{
     width: 80%;
     height: auto;
     margin: 0 auto;
     margin-top: .3em;
     overflow: hidden;
-    background-color: white;
     //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     text-align: center;
