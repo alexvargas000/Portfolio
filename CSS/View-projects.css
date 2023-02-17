@@ -192,6 +192,31 @@
      width: 55%;
    }
 
+   .sub-header-3{
+    position: relative;
+   }
+ 
+   .sub-header-3 a{
+     text-align: center;
+     background-color: #e74425;
+     padding: .5em;
+     margin: .2em 0;
+     width: 8em;
+     transition: padding 450ms ease-out;
+     font-size: 2em;
+
+     position: relative;
+     left: 40%;
+     text-decoration: none;
+
+     color: #fff9ea;
+   }
+ 
+   .sub-header-3 a:hover{
+     color: #ffc756;
+     padding-bottom: 2em;
+   }
+
    /* Project Pictures */
   
    .project-picture-one{
