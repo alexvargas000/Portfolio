@@ -16,12 +16,14 @@ html{
 
 body{
   position: relative;
-  background-color: #fff9ea;
+  background-color: #284ca0;
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
   left: -.49em;
   top: -.49em;
+
+
 }
 
 /* Header */
@@ -138,6 +140,37 @@ body{
   height: 11em;
   transition: height 500ms ease-out;
 }
+
+/* Footer */
+
+#footer{
+  //border: 1px solid red;
+  overflow: hidden;
+  display: flex;
+  height: auto;
+
+  flex-direction: column;
+}
+
+.footer-logo{
+  border: 1px solid#fff9ea;
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.footer-logo img{
+  width: 5%;
+  border: 1px solid yellow;
+}
+
+.footer-logo h1{
+  border: 1px solid yellow;
+  margin: auto 0;
+}
+
+
 
 /* 3D Works Images */
 
