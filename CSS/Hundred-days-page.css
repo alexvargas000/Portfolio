@@ -145,16 +145,23 @@
 
   #All-projects{
     display: flex;
-    border: 1px solid red;
     position: relative;
     top: 4.7em;
 
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   #All-projects img{
     width: 20%;
     /* border: 1px solid blue; */
+    transition: width 450ms linear;
+    transition: border 100ms linear 10ms
+  }
+
+  #All-projects img:hover{
+    border: 1px solid blue;
+    width: 19.5%;
   }
 
   
