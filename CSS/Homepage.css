@@ -153,7 +153,7 @@ body{
 }
 
 .footer-logo{
-  border: 1px solid#fff9ea;
+  /* border: 1px solid#fff9ea; */
   display: flex;
 
   justify-content: center;
@@ -161,12 +161,15 @@ body{
 }
 
 .footer-logo img{
-  width: 5%;
-  border: 1px solid yellow;
+  width: 3%;
+  /* border: 1px solid yellow; */
+  margin-top: 1em;
 }
 
 .footer-logo h1{
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
+  font-size: 2em;
+  color: #fff9ea;
   margin: auto 0;
 }
 
