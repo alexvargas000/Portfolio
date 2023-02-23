@@ -15,6 +15,7 @@
   /* Cat gif background */
   
   body{
+    /* border: 1px solid red; */
     position: relative;
     background-color: #fff9ea;
     background-size: 100%;
@@ -22,6 +23,13 @@
     width: 100%;
     left: -.49em;
     top: -.49em;
+
+    height: 50em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
   }
   
   /* Header */
@@ -36,6 +44,8 @@
     top: 0;
     background-color: #284ca0;
     z-index: 10;
+
+    box-shadow: 2px 2px 5px 1px gray;
   }
   
   #Header img{
@@ -147,12 +157,15 @@
   display: flex;
 
   background-color: #284ca0;
-  top: 43em;
 
-  position: relative;
   height: auto;
 
   width: 100%;
+
+  position: relative;
+  top: 1em;
+
+  margin-top: 1em;
 
   flex-direction: row;
   justify-content: space-between;
@@ -192,9 +205,9 @@
 
 .social-media a{
   /* border: 1px solid red; */
-
-
   text-align: center;
+  min-width: 5em;
+  margin-top: .5em;
 
 }
 
@@ -203,6 +216,11 @@
   /* border: 1px solid yellow; */
 
   margin-top: 20%;
+}
+
+.social-img:hover{
+  width: 50%;
+  margin-top: 15%;
 }
 
 

@@ -23,6 +23,10 @@ body{
   left: -.49em;
   top: -.49em;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 
 }
 
@@ -148,8 +152,9 @@ body{
   overflow: hidden;
   display: flex;
 
-  position: relative;
   height: 50%;
+  position: relative;
+  margin-top: 1em;
 
   flex-direction: row;
   justify-content: space-between;
@@ -188,9 +193,9 @@ body{
 
 .social-media a{
   /* border: 1px solid red; */
-
-
   text-align: center;
+  min-width: 5em;
+  margin-top: .5em;
 
 }
 
@@ -199,6 +204,11 @@ body{
   /* border: 1px solid yellow; */
 
   margin-top: 20%;
+}
+
+.social-img:hover{
+  width: 50%;
+  margin-top: 15%;
 }
 
 
@@ -220,7 +230,7 @@ body{
   left: 0;
 }
 
-/* 3D Works Links Code */
+/* Links Code */
 
 .arrow-right {
   width: 0; 
@@ -271,6 +281,31 @@ body{
  .ED-project-3{
    position: relative;
  }
+
+ .Design-project-1{
+  position: relative;
+ }
+
+ .Design-project-2{
+  position: relative;
+ }
+
+ .Design-project-3{
+  position: relative;
+ }
+
+ .Coding-project-1{
+  position: relative;
+ }
+
+ .Coding-project-2{
+  position: relative;
+ }
+
+ .Coding-project-3{
+  position: relative;
+ }
+
 
 .project-link a{
   color: #fff9ea;
