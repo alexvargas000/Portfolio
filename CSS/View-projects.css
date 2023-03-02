@@ -35,7 +35,7 @@
     left: 0;
     top: 0;
     background-color: #284ca0;
-    z-index: 10;
+    z-index: 20;
 
     box-shadow: 2px 2px 5px 1px gray;
   }
@@ -217,10 +217,35 @@
   /* Project Information Page Starts */
 
   #Project-info{
-    /* border: 1px solid red; */
     position: relative;
-    display: block;
+    display: flex;
   }
+
+  /* Hover For Pictures */
+
+  #Picture-Hover-Left{
+    position: absolute;
+    top: 0;
+    width: 10%;
+    height: 50%;
+    overflow: hidden;
+    z-index: 10;
+
+    /* border: 1px solid red; */
+  }
+
+  #Picture-Hover-Right{
+    position: absolute;
+    top: 0;
+    width: 10%;
+    right: 0;
+    height: 50%;
+    overflow: hidden;
+    z-index: 10;
+
+    /* border: 1px solid red; */
+  }
+
   /* Project Title */
 
   .project-title{
@@ -318,6 +343,7 @@
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
+    max-width: 60em;
 
     transition: all 400ms ease-in-out;
   }
@@ -342,6 +368,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
     display: inline-block;
+    max-width: 40em;
 
     top: 1%;
     right: 90%;
@@ -353,7 +380,7 @@
     width: 100%;
   }
 
-  .project-picture-two:hover{
+  #Picture-Hover-Left:hover ~ .project-picture-two{
     right: 30%;
     top: .5%;
   }
@@ -368,6 +395,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
     display: inline-block;
+    max-width: 40em;
 
     top: 1%;
     left: 90%;
@@ -379,9 +407,9 @@
     width: 100%;
   }
 
-  .project-picture-three:hover{
+  #Picture-Hover-Right:hover ~ .project-picture-three{
     left: 30%;
-    top: .5;
+    top: .5%;
   }
 
    /* Project Info */
@@ -404,14 +432,14 @@
   }
 
   .project-text{
-    width: 80%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     margin-top: .3em;
     overflow: hidden;
     //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    text-align: center;
+    text-align: left;
 
 
     flex-shrink: 3;
