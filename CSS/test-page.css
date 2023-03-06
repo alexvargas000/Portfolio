@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    position: relative;
+    right: .5em;
+
+    display: flex;
+    min-height: 100%;
+    min-width: 100%;
+    border: 1px solid red;
+
+}
+
+/*/////////// Header ///////////*/
+
+#Header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    /* overflow: hidden; */
+}
+
+#logo{
+    border: 4px solid green;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    height: 100%;
+
+    display: inline-block;
+
+}
+
+#logo img{
+    width: 4%;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+#logo h1{
+    position: relative;
+    display: inline-block;
+    border: 1px solid green;
+
+    margin: auto 0;
+
+}
+
+

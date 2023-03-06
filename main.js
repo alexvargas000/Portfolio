@@ -17,11 +17,4 @@ function changeImages(){
         index = 0;
     }
     projectImage.src = daysImages[index];
-}
-
-
-// for(let i = 0, i < 7, i++){
-//     projectImage.src = daysImages[i];
-// };
-
-// console.log(daysImages);
+};
