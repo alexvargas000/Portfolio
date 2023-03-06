@@ -211,6 +211,38 @@ body{
   margin-top: 15%;
 }
 
+/* Topic Transitions */
+
+.topic-transition{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 4em;
+
+  background-color: #0a1e3690;
+}
+
+.topic-transition h1{
+  color: #ffc756;
+  font-size: 3em;
+}
+
+.topic-transition img{
+ max-width: 5%;
+ height: fit-content;
+ padding-top: 1em;
+}
+
+
+
+
+
+
 
 
 
