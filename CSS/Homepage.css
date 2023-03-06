@@ -324,6 +324,17 @@ body{
 }
 
 
+/* Design Transition */
+
+#design-transition{
+  height: 10em;
+  transition: height 100ms linear;
+}
+
+#design-transition:hover{
+  height: auto;
+  transition: all 450ms linear;
+}
 
 /* Design Works Images */
 
