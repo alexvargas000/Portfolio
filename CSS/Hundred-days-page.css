@@ -237,6 +237,8 @@
   font-size: 3em;
   z-index: 10;
   text-align: center;
+
+  transition: all 400ms linear;
   }
 
   #overlay-text{
@@ -270,6 +272,8 @@
     display: none;
 
     text-align: center;
+
+    transition: all 400ms linear;
   }
 
   #image-overlay img{
