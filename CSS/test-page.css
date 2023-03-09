@@ -12,6 +12,10 @@ body{
     min-width: 100%;
     border: 1px solid red;
 
+    background-color: #284ca0;
+
+    flex-direction: column;
+
 }
 
 /*/////////// Header ///////////*/
@@ -25,6 +29,9 @@ body{
     width: 100%;
     height: 10%;
     background-color: blue;
+
+    z-index: 70;
+
     /* overflow: hidden; */
 }
 
@@ -54,4 +61,52 @@ body{
 
 }
 
+/*/////////// 3D Works ///////////*/
+
+#ED-Works{
+    position: relative;
+    border: 1px solid red;
+    background-color: #00000090;
+
+    top: 4.2em;
+    height: 30em;
+
+    justify-content: space-between;
+    text-align: center;
+
+    overflow: hidden;
+}
+
+#ED-Works h1{
+    border: 1px solid green;
+    font-size: 5em;
+    color: #fff9ea;
+
+    display: inline;
+}
+
+#ED-Works p{
+    font-size: 4em;
+    color: #fff9ea;
+    border: 1px solid pink;
+    display: block;
+    margin: 0;
+}
+
+/* 3D Model Viewer */
+
+.ED-Model{
+    height: 60%;
+    border: 1px solid coral;
+    
+}
+
+.ED-Model model-viewer{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    border: none;
+
+    border: 1px solid green;
+}
 

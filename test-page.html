@@ -3,6 +3,11 @@
     <title>Secret page</title>
     <link rel="stylesheet" href="CSS/test-page.css">
     <link rel="shortcut icon" type="image/x-icon" href="Assets/Browser Icon/Dog.png">
+
+    <!-- 3D-Model Viewer Code -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
 </head>
 <body>
     <nav id="Header">
@@ -11,8 +16,23 @@
             <h1>Alex Vargas</h1>
         </div>
     </nav>
-    <div>
-        test
+
+    <div id="ED-Works">
+        <!-- ////Bear from Mei//// -->
+        <div class="intro-to-project">
+            <h1>HELLO</h1>
+            <p>Welcome to my portfolio</p>
+        </div>
+
+        <div class="ED-Model">
+            <model-viewer src="Assets/3D Models/TestBear.gltf" ar ar-modes="webxr scene-viewer quick-look" 
+            camera-controls poster="poster.webp" shadow-intensity="1" autoplay animation-name="Wave"
+            environment-image="Assets/3D Models/music_hall_01_1k.hdr">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+            </model-viewer>
+        </div>
     </div>
 
     <script src="./test.js"></script>
