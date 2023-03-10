@@ -37,6 +37,8 @@ body{
 
     z-index: 70;
 
+    justify-content: space-between;
+
     /* overflow: hidden; */
 }
 
@@ -59,7 +61,21 @@ body{
 
 /* Nav Bar/Right Side */
 
+#nav-bar ul{
+    list-style-type: none;
+    margin-top: 2em;
+}
 
+#nav-bar li{
+    display: inline;
+    margin: 0 3em;
+
+    color: #fff9ea;
+}
+
+#nav-bar a{
+    text-decoration: none;
+}
 
 
 
@@ -83,6 +99,7 @@ body{
     justify-content: space-between;
 
     overflow: hidden;
+    font-family: "Oswald";
 }
 
 /* Project Colors and Sizes */
@@ -110,7 +127,6 @@ body{
     margin-top: 3%;
 
     -webkit-animation: fadein 3s;
-    font-family: "Oswald";
 }
 
 .ED-project-1-text h1{
