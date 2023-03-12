@@ -207,19 +207,29 @@ body{
 
 
     text-align: center;
+
+    overflow: hidden;
 }
 
-#ED-Works a{
+.learn-more a{
     position: relative;
     text-decoration: none;
     font-size: 1.5em;
     color: #fff9ea;
 
     top: .2em;
+    right: 0;
+
+    transition: right 400ms ease-in-out;
 }
 
 .learn-more:hover{
     background-color: #182444;
+}
+
+.learn-more:hover a{
+    color: #ec703b;
+    right: 6em;
 }
 
 /* 3D Model Viewer */
