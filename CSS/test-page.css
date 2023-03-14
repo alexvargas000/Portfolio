@@ -111,8 +111,7 @@ body{
 
 #ED-project-1{
     height: 35em;
-    background-color: #182444;
-    background-image: linear-gradient(#182444, #ec703b);
+    background-image: linear-gradient(#182444, #000000);
     display: flex;
     justify-content: space-around;
     overflow: hidden;
@@ -123,8 +122,8 @@ body{
 
 #ED-project-2{
     height: 35em;
-    background-color: #ec703b;
-    background-image: linear-gradient(#ec703b, #ffca1b);
+    //background-image: linear-gradient(#000000, #de8f2e);
+    background-color: #000000;
     display: flex;
 
     position: relative;
@@ -134,10 +133,13 @@ body{
 
 #ED-project-3{
     height: 35em;
-    background-color: #ffca1b;
+    //background-image: linear-gradient(#ec703b, #ffca1b);
+    background-color: #000000;
     display: flex;
 
     position: relative;
+    justify-content: space-around;
+    text-align: center;
 }
 
 /* Project Text */
@@ -166,10 +168,13 @@ body{
 
 .ED-project-2-text{
     margin-top: 5%;
+    position: relative;
+
+
 }
 
 .ED-project-2-text h1{
-    font-size: 5em;
+    font-size: 8em;
     color: #fff9ea;
 
     display: inline;
@@ -180,11 +185,18 @@ body{
     color: #fff9ea;
     display: block;
     margin: 0;
+
+}
+
+.ED-project-3-text{
+    margin-top: 5%;
+    position: relative;
+
+
 }
 
 .ED-project-3-text h1{
-    border: 1px solid green;
-    font-size: 5em;
+    font-size: 8em;
     color: #fff9ea;
 
     display: inline;
@@ -193,7 +205,6 @@ body{
 .ED-project-3-text p{
     font-size: 4em;
     color: #fff9ea;
-    border: 1px solid pink;
     display: block;
     margin: 0;
 }
@@ -233,8 +244,29 @@ body{
 
 .learn-more:hover a{
     color: #ec703b;
-    right: 6em;
+    right: .2em;
 }
+
+.learn-more:hover i{
+    color: #ec703b;
+    left: 0em;
+}
+
+.arrow {
+    border: solid #ec703b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+    position: relative;
+    left: 9em;
+    transition: left 400ms ease-in-out;
+  }
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
 
 /* 3D Model Viewer */
 
@@ -247,6 +279,9 @@ body{
 
 #ED-project-2 .ED-Model{
     height: 100%;
+    position: relative;
+
+    left: 3em;
 
     margin-top: 0%;
     
@@ -254,8 +289,11 @@ body{
 
 #ED-project-3 .ED-Model{
     height: 100%;
+    position: relative;
 
-    margin-top: 3%;
+    bottom: 4.5em;
+    right: 3em;
+
     
 }
 
@@ -273,6 +311,15 @@ body{
     height: 100%;
     border: none;
     width: 30em;
+
+}
+
+#ED-project-3 .ED-Model model-viewer{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    border: none;
+    width: 25em;
 
 }
 
