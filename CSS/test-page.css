@@ -112,7 +112,7 @@ body{
 #ED-project-1{
     height: 35em;
     background-color: #182444;
-    /* background-image: linear-gradient(#182444 80%, #ec703b); */
+    background-image: linear-gradient(#182444, #ec703b);
     display: flex;
     justify-content: space-around;
     overflow: hidden;
@@ -124,10 +124,12 @@ body{
 #ED-project-2{
     height: 35em;
     background-color: #ec703b;
-    /* background-image: linear-gradient(#ec703b 80%, #ffca1b); */
+    background-image: linear-gradient(#ec703b, #ffca1b);
     display: flex;
 
     position: relative;
+    justify-content: space-around;
+    text-align: center;
 }
 
 #ED-project-3{
@@ -162,8 +164,11 @@ body{
     margin: 0;
 }
 
+.ED-project-2-text{
+    margin-top: 5%;
+}
+
 .ED-project-2-text h1{
-    border: 1px solid green;
     font-size: 5em;
     color: #fff9ea;
 
@@ -171,9 +176,8 @@ body{
 }
 
 .ED-project-2-text p{
-    font-size: 4em;
+    font-size: 3em;
     color: #fff9ea;
-    border: 1px solid pink;
     display: block;
     margin: 0;
 }
@@ -241,11 +245,34 @@ body{
     
 }
 
-.ED-Model model-viewer{
+#ED-project-2 .ED-Model{
+    height: 100%;
+
+    margin-top: 0%;
+    
+}
+
+#ED-project-3 .ED-Model{
+    height: 100%;
+
+    margin-top: 3%;
+    
+}
+
+#ED-project-1 .ED-Model model-viewer{
     position: relative;
     display: inline-block;
     height: 100%;
     border: none;
+
+}
+
+#ED-project-2 .ED-Model model-viewer{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    border: none;
+    width: 30em;
 
 }
 
