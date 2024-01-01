@@ -1,0 +1,130 @@
+*{
+    background-color: #536b99;
+}
+
+body{
+    top: 5em;
+    margin: 0;
+    height: 100%;
+
+}
+
+/* CLASSES */
+
+.Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: transparent;
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-color: transparent;
+}
+
+.Project-Header{
+    font-size: large;
+
+    background-color: transparent;
+}
+
+.Project-Header h1{
+    background-color: transparent;
+}
+
+.Project-Main-Img{
+    width: 70%;
+    margin: 0 auto;
+
+    background-color: transparent;
+}
+
+.Project-Main-Img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* ///// HEADER ///// */
+
+#Header{
+    position: fixed;
+    top: 0;
+    margin: 0;
+
+    height: 5em;
+    width: 100%;
+
+    background-color: #273651a3;
+
+    z-index: 10;
+}
+
+#Logo{
+    background-color: transparent;
+}
+
+/* HEADER LINKS */
+
+#Headings {
+    margin: 1em 0;
+
+    background-color: transparent;
+}
+
+#Headings a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#Headings ul{
+    list-style-type: none;
+}
+
+#Headings li{
+    margin: 0 2em;
+    background-color: transparent;
+}
+
+/* NAV BAR */
+
+#Header-Nav-Bar{
+    position: fixed;
+    background-color: #364c75;
+    display: none;
+
+    z-index: 20;
+
+    border-radius: 10px;
+}
+
+#Header-Nav-Bar ul{
+    padding-left: 0;
+}
+
+#Header-Nav-Bar li{
+    list-style: none;
+    margin: 1em;
+}
+
+/* ///// MAIN CONTENT ///// */
+
+#Main{
+    position: relative;
+    top: 5em;
+}
+
+/* /// MAIN ITEM /// */
+
+#Main-Item{
+    text-align: center;
+    height: 45em;
+    overflow: hidden;
+
+    background-color: aliceblue;
+}
