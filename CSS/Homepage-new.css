@@ -15,6 +15,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    text-align: center;
 
     background-color: transparent;
 }
@@ -69,6 +70,10 @@ body{
     background-color: transparent;
 }
 
+#Logo h1{
+    background-color: transparent;
+}
+
 /* HEADER LINKS */
 
 #Headings {
@@ -117,6 +122,7 @@ body{
 #Main{
     position: relative;
     top: 5em;
+
 }
 
 /* /// MAIN ITEM /// */
@@ -125,6 +131,5 @@ body{
     text-align: center;
     height: 45em;
     overflow: hidden;
-
-    background-color: aliceblue;
+    margin: 0 auto;
 }
