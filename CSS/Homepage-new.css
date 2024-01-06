@@ -1,5 +1,12 @@
+@font-face {
+    font-family: "Oswald";
+    src: url('/CSS/Fonts/Oswald/Oswald-VariableFont_wght.ttf');
+}
+
 *{
     background-color: #536b99;
+    font-family: "Oswald";
+    color: white;
 }
 
 body{
