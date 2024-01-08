@@ -171,6 +171,31 @@ body{
     top: 7em;
 }
 
+/* /// MAIN ITEM /// */
+
+#Main-Item{
+    text-align: left;
+    align-items: center;
+    height: 30em;
+    overflow: hidden;
+    margin: 0 3.5em;
+}
+
+/* /// MENU ITEMS /// */
+
+#Home-Menu{
+
+}
+
+.Menu-item{
+    position: relative;
+    height: 17em;
+    width: 25em;
+
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
 
 /* ////// FOOTER ////// */
 
@@ -184,6 +209,13 @@ body{
     height: 9em;
     bottom: 0;
     margin-top: 10em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+    background-color: transparent;
 }
 
 #Footer h3{
@@ -197,6 +229,8 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
 
+    
+
 }
 
 #Footer-Right img{
@@ -207,7 +241,7 @@ body{
 
 /* ///// RESPONSIVE DESIGN ///// */
 
-@media (max-width: 600px){
+@media (max-width: 830px){
 
     #Header{
         height: 4em;
@@ -216,6 +250,20 @@ body{
     #Logo img{
         width: 40%;
     }
+
+    .Row-S2{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .Menu-item{
+        margin: 1em auto;
+    }
+
+    .Project-Header{
+        font-size: 1.5em;
+    }
+
 
     #Footer-Left{
         font-size: small;
