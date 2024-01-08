@@ -21,7 +21,16 @@ body{
 .Row{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+
+    background-color: transparent;
+}
+
+.Row-S{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
 
     background-color: transparent;
@@ -35,8 +44,15 @@ body{
     background-color: transparent;
 }
 
+.Column-NS{
+    display: flex;
+    flex-direction: column;
+
+    background-color: transparent;
+}
+
 .Project-Header{
-    font-size: large;
+    font-size: 2em;
 
     background-color: transparent;
 }
@@ -65,33 +81,39 @@ body{
     top: 0;
     margin: 0;
 
-    height: 5em;
+    height: 8em;
     width: 100%;
 
     background-color: #273651a3;
+
+    overflow: hidden;
 
     z-index: 10;
 }
 
 #Logo{
     background-color: transparent;
+
+    height: 3em;
+    text-align: center;
 }
 
 #Logo h1{
     background-color: transparent;
+    font-size: 1.7em;
 }
 
 /* HEADER LINKS */
 
 #Headings {
     margin: 1em 0;
-
     background-color: transparent;
 }
 
 #Headings a{
     text-decoration: none;
     background-color: transparent;
+
 }
 
 #Headings ul{
@@ -101,6 +123,7 @@ body{
 #Headings li{
     margin: 0 2em;
     background-color: transparent;
+    font-size: larger;
 }
 
 /* NAV BAR */
@@ -122,21 +145,37 @@ body{
 #Header-Nav-Bar li{
     list-style: none;
     margin: 1em;
+
+    font-size: smaller;
 }
 
 /* ///// MAIN CONTENT ///// */
 
 #Main{
     position: relative;
-    top: 5em;
+    top: 10em;
 
 }
 
 /* /// MAIN ITEM /// */
 
 #Main-Item{
-    text-align: center;
-    height: 45em;
+    text-align: left;
+    align-items: center;
+    height: 30em;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0 7em;
+}
+
+
+/* ///// RESPONSIVE DESIGN ///// */
+
+@media (max-width: 600px){
+    #Header{
+        height: 7em;
+    }
+
+    #Headings li{
+        margin: 0 1em;
+    }
 }
