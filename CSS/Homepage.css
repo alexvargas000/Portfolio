@@ -81,7 +81,7 @@ body{
     top: 0;
     margin: 0;
 
-    height: 8em;
+    height: 9em;
     width: 100%;
 
     background-color: #273651a3;
@@ -103,10 +103,15 @@ body{
     font-size: 1.7em;
 }
 
+#Logo img{
+    width: 30%;
+    background-color: transparent;
+}
+
 /* HEADER LINKS */
 
 #Headings {
-    margin: 1em 0;
+    margin: 2.5em 0;
     background-color: transparent;
 }
 
@@ -164,7 +169,7 @@ body{
     align-items: center;
     height: 30em;
     overflow: hidden;
-    margin: 0 7em;
+    margin: 0 3.5em;
 }
 
 
@@ -173,6 +178,14 @@ body{
 @media (max-width: 600px){
     #Header{
         height: 7em;
+    }
+
+    #Logo img{
+        width: 40%;
+    }
+
+    #Headings{
+        margin: .5em 0;
     }
 
     #Headings li{
