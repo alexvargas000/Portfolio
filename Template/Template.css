@@ -171,31 +171,6 @@ body{
     top: 7em;
 }
 
-/* /// MAIN ITEM /// */
-
-#Main-Item{
-    text-align: left;
-    align-items: center;
-    height: 30em;
-    overflow: hidden;
-    margin: 0 3.5em;
-}
-
-/* /// MENU ITEMS /// */
-
-#Home-Menu{
-
-}
-
-.Menu-item{
-    position: relative;
-    height: 17em;
-    width: 25em;
-
-    border: 1px black solid;
-    border-radius: 20px;
-}
-
 
 /* ////// FOOTER ////// */
 
@@ -241,20 +216,6 @@ body{
     #Logo img{
         width: 40%;
     }
-
-    .Row-S2{
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .Menu-item{
-        margin: 1em auto;
-    }
-
-    .Project-Header{
-        font-size: 1.5em;
-    }
-
 
     #Footer-Left{
         font-size: small;
