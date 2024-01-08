@@ -183,6 +183,7 @@ body{
 
 #Main-Item iframe{
     border-radius: 25px;
+    width: 50em;
 }
 
 /* /// MENU ITEMS /// */
