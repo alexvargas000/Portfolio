@@ -195,6 +195,27 @@ body{
 
     border: 1px black solid;
     border-radius: 20px;
+
+    transition: all .5s;
+}
+
+.Menu-item h1{
+    background-color: transparent;
+}
+
+#Short{
+    background-image: url("/Assets/Characters/Hale/Hale-Menu-Img.png");
+    background-size: cover;
+}
+
+#Char{
+    background-image: url("/Assets/Menu Images/Characters-min.png");
+    background-size: cover;
+}
+
+#Mode{
+    background-image: url("/Assets/Menu Images/Modeling.png");
+    background-size: cover;
 }
 
 /* /// TIMELINE ///  */
@@ -209,6 +230,8 @@ body{
 
     border: 1px black solid;
     border-radius: 20px;
+
+    transition: all .5s;
 }
 
 /* ////// FOOTER ////// */
