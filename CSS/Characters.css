@@ -178,7 +178,7 @@ body{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
     align-items: center;
     overflow: hidden;
@@ -190,9 +190,14 @@ body{
 
 .Character-writing{
     font-size: 7em;
+    width: 40%;
 }
 
 .Character-writing h1{
+}
+
+.Character-image{
+    width: 60%;
 }
 
 .Character-image img{
