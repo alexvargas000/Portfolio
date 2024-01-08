@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Alex Vargas Diaz</title>
-    <link rel="stylesheet" href="/CSS/Homepage.css">
+    <title>Alex Vargas - Characters</title>
+    <link rel="stylesheet" href="/CSS/Characters.css">
     <link rel="icon" type="image/png" href="/Assets/Browser Icon/Dog.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- 3D-Model Viewer Code -->
+     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
 </head>
 <body>
 
@@ -38,48 +43,19 @@
     
     <div id="Main" class="Column">
 
-<!-- /// MAIN ITEM /// -->
+        <!-- /// CHARACTER 1 /// -->
 
-        <div id="Main-Item" class="Row-S2">
-            <div class="Project-Header">
-                <p>Hi! My name is Alex, and this is my</p>
-                <h1>DEMO REEL</h1>
-            </div>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uww1k2RnTMo?si=xyQNB9yAxiQgDw_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+        <div class="Character">
+
         </div>
 
-<!-- /// MENU ITEMS /// -->
-        
-        <div id="Home-Menu" class="Row-S2">
-            <!-- //ITEM 1// -->
-            <a href="Short-Films.html">
-                <div class="Menu-item">
-                    <h1>Short Films</h1>
-                </div>
-            </a>
-            <!-- //ITEM 2// -->
-            <a href="Characters.html">
-                <div class="Menu-item">
-                    <h1>Characters</h1>
-                </div>
-            </a>
-            <!-- //ITEM 3// -->
-            <a href="Modeling.html">
-                <div class="Menu-item">
-                    <h1>Modeling</h1>
-                </div>
-            </a>
-        </div>
-
-<!-- /// TIMELINE /// -->
-        <a href="Timeline.html" id="Bloopers">
-            <div>
-                <h1>My 3D Timeline</h1>
-            </div>
-        </a>
-
+               <model-viewer src="Assets/3D Models/Mei/TestBear.gltf"
+               camera-controls disable-zoom poster="poster.webp" shadow-intensity="1" autoplay animation-name="Wave"
+               environment-image="Assets/3D Models/HDRIs/music_hall_01_1k.hdr">
+                   <div class="progress-bar hide" slot="progress-bar">
+                       <div class="update-bar"></div>
+                   </div>
+               </model-viewer>
     </div>
 
     <!-- ////// FOOTER ////// -->

@@ -183,6 +183,10 @@ body{
 
 /* /// MENU ITEMS /// */
 
+#Home-Menu{
+
+}
+
 .Menu-item{
     position: relative;
     height: 17em;
@@ -192,19 +196,6 @@ body{
     border-radius: 20px;
 }
 
-/* /// TIMELINE ///  */
-
-#Bloopers{
-    position: relative;
-    height: 17em;
-    width: 50em;
-    margin: 1em auto;
-
-    text-align: center;
-
-    border: 1px black solid;
-    border-radius: 20px;
-}
 
 /* ////// FOOTER ////// */
 
