@@ -168,34 +168,36 @@ body{
 
 #Main{
     position: relative;
-    top: 7em;
+    top: 9em;
 }
 
-/* /// MAIN ITEM /// */
+/* /// CHARACTERS /// */
 
-#Main-Item{
-    text-align: left;
+.Character{
+    height: 20em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
     align-items: center;
-    height: 30em;
     overflow: hidden;
-    margin: 0 3.5em;
 }
 
-/* /// MENU ITEMS /// */
-
-#Home-Menu{
-
+.Character *{
+    background-color: transparent;
 }
 
-.Menu-item{
-    position: relative;
-    height: 17em;
-    width: 25em;
-
-    border: 1px black solid;
-    border-radius: 20px;
+.Character-writing{
+    font-size: 7em;
 }
 
+.Character-writing h1{
+}
+
+.Character-image img{
+    width: 100%;
+}
 
 /* ////// FOOTER ////// */
 
