@@ -209,6 +209,13 @@ body{
     height: 9em;
     bottom: 0;
     margin-top: 10em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+    background-color: transparent;
 }
 
 #Footer h3{
@@ -222,6 +229,8 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
 
+    
+
 }
 
 #Footer-Right img{
@@ -232,7 +241,7 @@ body{
 
 /* ///// RESPONSIVE DESIGN ///// */
 
-@media (max-width: 600px){
+@media (max-width: 830px){
 
     #Header{
         height: 4em;
@@ -246,6 +255,7 @@ body{
         flex-direction: column;
         justify-content: space-evenly;
     }
+
 
     .Menu-item{
         margin: 1em auto;
