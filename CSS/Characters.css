@@ -258,11 +258,16 @@ body{
 @media (max-width: 830px){
 
     #Header{
-        height: 4em;
+        height: 5em;
+    }
+
+    #Logo{
+        position: relative;
+        top: .5em;
     }
 
     #Logo img{
-        width: 40%;
+        width: 50%;
     }
 
     .Row-S2{
