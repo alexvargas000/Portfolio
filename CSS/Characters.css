@@ -252,6 +252,56 @@ body{
    margin-top: 3em;
 }
 
+/* ////// MOBILE MENU ////// */
+
+#Menu-Button{
+    display: none;
+    position: fixed;
+
+    top: 1em;
+    right: 1.5em;
+
+    height: 2em;
+    width: 2em;
+    z-index: 200;
+
+    background-color: transparent;
+}
+
+#Mobile-Menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 9em;
+
+    width: 8em;
+    height: 20em;
+
+    font-size: 3em;
+
+    padding-top: 2em;
+}
+
+#Mobile-Menu ul{
+    list-style-type: none;
+
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center; 
+}
+
+.Open-Mobile-Menu{
+    background-image: url("/Assets/Icons/Mobile Icons/Mobile Menu Bars@8x-8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Close-Mobile-Menu{
+    background-image: url("/Assets/Icons/Mobile Icons/Mobile Menu Exit@8x-8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 /* ///// RESPONSIVE DESIGN ///// */
 
@@ -314,4 +364,50 @@ body{
         width: 3em;
         margin-right: 1em;
     }
+
+        /* /// MOBILE MENU /// */
+
+        #Menu-Button{
+            display: block;
+            position: fixed;
+        
+            top: 1.5em;
+            right: 1.5em;
+        
+            height: 2em;
+            width: 2em;
+            z-index: 40;
+        }
+    
+        #Mobile-Menu{
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 9.5em;
+        
+            width: 8.15em;
+            height: 20em;
+        
+            font-size: 3em;
+        
+            padding-top: 2em;
+    
+            text-align: center;
+    
+            margin: 0 auto;
+    
+            transition: all 1s;
+    
+        }
+        
+        #Mobile-Menu ul{
+            list-style-type: none;
+    
+            text-align: center;
+        }
+    
+        .Works-Menu-Item{
+            display: none;
+            font-size: .7em;
+        }
 }
