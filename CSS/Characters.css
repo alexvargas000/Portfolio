@@ -131,6 +131,10 @@ body{
 
 }
 
+#Headings a:hover{
+    color: rgb(254, 210, 106);
+}
+
 #Headings ul{
     list-style-type: none;
 }

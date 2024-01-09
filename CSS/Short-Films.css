@@ -1,0 +1,323 @@
+@font-face {
+    font-family: "Oswald";
+    src: url('/CSS/Fonts/Oswald/Oswald-VariableFont_wght.ttf');
+}
+
+*{
+    background-color: #536b99;
+    font-family: "Oswald";
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    top: 5em;
+    margin: 0;
+    height: 100%;
+
+}
+
+/* CLASSES */
+
+.Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    background-color: transparent;
+}
+
+.Row-S{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+    background-color: transparent;
+}
+
+.Row-S2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+    background-color: transparent;
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-color: transparent;
+}
+
+.Column-NS{
+    display: flex;
+    flex-direction: column;
+
+    background-color: transparent;
+}
+
+.Project-Header{
+    font-size: 2em;
+
+    background-color: transparent;
+}
+
+.Project-Header h1{
+    background-color: transparent;
+}
+
+.Project-Main-Img{
+    width: 70%;
+    margin: 0 auto;
+
+    background-color: transparent;
+}
+
+.Project-Main-Img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* ///// HEADER ///// */
+
+#Header{
+    position: fixed;
+    top: 0;
+    margin: 0;
+
+    height: 9em;
+    width: 100%;
+
+    background-color: #273651a3;
+
+    overflow: hidden;
+
+    z-index: 10;
+}
+
+#Logo{
+    background-color: transparent;
+
+    height: 3em;
+    text-align: center;
+}
+
+#Logo h1{
+    background-color: transparent;
+    font-size: 1.7em;
+}
+
+#Logo img{
+    width: 30%;
+    background-color: transparent;
+}
+
+/* HEADER LINKS */
+
+#Headings {
+    margin: 2.5em 0;
+    background-color: transparent;
+}
+
+#Headings a{
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+#Headings a:hover{
+    color: rgb(254, 210, 106);
+}
+
+#Headings ul{
+    list-style-type: none;
+}
+
+#Headings li{
+    margin: 0 2em;
+    background-color: transparent;
+    font-size: larger;
+}
+
+/* NAV BAR */
+
+#Header-Nav-Bar{
+    position: fixed;
+    background-color: #364c75;
+    display: none;
+
+    z-index: 20;
+
+    border-radius: 10px;
+}
+
+#Header-Nav-Bar ul{
+    padding-left: 0;
+}
+
+#Header-Nav-Bar li{
+    list-style: none;
+    margin: 1em;
+
+    font-size: smaller;
+}
+
+/* ///// MAIN CONTENT ///// */
+
+#Main{
+    position: relative;
+    top: 9em;
+}
+
+/* /// CHARACTERS /// */
+
+.Character{
+    height: 20em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    align-items: center;
+    overflow: hidden;
+
+    transition: all 2s;
+}
+
+.Character *{
+    background-color: transparent;
+}
+
+.Character-writing{
+    font-size: 3em;
+    width: 40%;
+    margin: 0 .5em;
+
+    line-height: 100%;
+}
+
+.Character-writing h1, p{
+    position: relative;
+    width: 5em;
+}
+
+.Character-image{
+    width: 60%;
+}
+
+.Character-image img{
+    width: 100%;
+}
+
+/* ////// FOOTER ////// */
+
+#Footer-Line{
+    position: relative;
+    top: 10em;
+    width: 90%;
+}
+
+#Footer{
+    height: 9em;
+    bottom: 0;
+    margin-top: 10em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+    background-color: transparent;
+}
+
+#Footer h3{
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+#Footer-Right{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+
+}
+
+#Footer-Right img{
+   width: 3.5em; 
+   margin-top: 3em;
+}
+
+
+/* ///// RESPONSIVE DESIGN ///// */
+
+@media (max-width: 830px){
+
+    #Header{
+        height: 4em;
+    }
+
+    #Logo img{
+        width: 40%;
+    }
+
+    .Row-S2{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .Project-Header{
+        font-size: 1.5em;
+    }
+
+    #Main{
+        top: 5em;
+    }
+
+    .Character{
+        height: 10em;
+    }
+
+    .Character-image{
+        width: 100%;
+    }
+
+    .Character-image img{
+        width: 115%;
+    }
+
+    .Character-writing h1, p{
+        width: 1em;
+        font-size: .5em;
+    }
+
+    .Character-writing p{
+        line-height: 100%;
+    }
+
+    .Character-writing{
+        margin-left: 1.5em;
+    }
+
+    #Footer-Left{
+        font-size: small;
+        width: 30%;
+    }
+
+    #Footer-Right{
+        width: 60%;
+    }
+
+    #Footer-Right img{
+        width: 3em;
+        margin-right: 1em;
+    }
+}
