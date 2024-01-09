@@ -1,3 +1,9 @@
+// LOGO TAKES YOU HOME
+
+$("#Logo").click(function(){
+    window.open("https://avargas.org/index");
+})
+
 // WORKS NAV BAR
 var worksNavHover = $("#Nav-Activate");
 var worksNav = $("#Header-Nav-Bar");
@@ -28,7 +34,7 @@ $("#Menu-Button").click(function(){
     $("#Menu-Button").addClass("Close-Mobile-Menu");
         menuOn = true;
     } else {
-        $("#Mobile-Menu").css('left', '9.5em');
+        $("#Mobile-Menu").css('left', '11em');
         $("#Menu-Button").addClass("Open-Mobile-Menu");
         $("#Menu-Button").removeClass("Close-Mobile-Menu");
         menuOn = false;

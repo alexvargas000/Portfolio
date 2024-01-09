@@ -9,6 +9,7 @@ $("#dark-mode-button").click(function(){
         $("#Header-Links").css('background-color', 'transparent');
         $("li").css('background-color', 'transparent');
         $("a").css('background-color', 'transparent');
+        $("p, h1, a, h2, button, li").css('opacity', '50%');
         darkModeOn = true;
         $('#dark-mode-button').html('Turn Lights On');
     } else {
@@ -17,6 +18,7 @@ $("#dark-mode-button").click(function(){
         $("#Header-Links").css('background-color', 'transparent');
         $("li").css('background-color', 'transparent');
         $("a").css('background-color', 'transparent');
+        $("p, h1, a, h2, button, li").css('opacity', '100%');
         darkModeOn = false;
         $('#dark-mode-button').html('Turn Lights Off');
     };
