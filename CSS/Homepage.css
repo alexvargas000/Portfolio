@@ -284,11 +284,16 @@ body{
 @media (max-width: 830px){
 
     #Header{
-        height: 4em;
+        height: 5em;
+    }
+
+    #Logo{
+        position: relative;
+        top: .5em;
     }
 
     #Logo img{
-        width: 40%;
+        width: 50%;
     }
 
     .Row-S2{
@@ -296,9 +301,19 @@ body{
         justify-content: space-evenly;
     }
 
+    #Main{
+        top: 5em;
+    }
+
+    #Main-Item{
+        width: 22em;
+        text-align: center;
+        margin: 0 auto;
+    }
+
     #Main-Item iframe{
-        width: 23em;
-        border-radius: 5px;
+        width: 22em;
+        border-radius: 10px;
         margin: 1em;
     }
 
@@ -308,11 +323,12 @@ body{
     }
 
     #Bloopers{
-        width: 25em;
+        width: 23em;
     }
 
     .Project-Header{
-        font-size: 1.5em;
+        font-size: 1em;
+        text-align: center;
     }
 
 
@@ -326,7 +342,7 @@ body{
     }
 
     #Footer-Right img{
-        width: 3em;
+        width: 2.5em;
         margin-right: 1em;
     }
 }
