@@ -293,13 +293,18 @@ body{
     }
 
     #Main-Item iframe{
-        width: 25em;
-        border-radius: 10px;
+        width: 23em;
+        border-radius: 5px;
+        margin: 1em;
     }
 
     .Menu-item{
         width: 20em;
         margin: 1em auto;
+    }
+
+    #Bloopers{
+        width: 25em;
     }
 
     .Project-Header{
