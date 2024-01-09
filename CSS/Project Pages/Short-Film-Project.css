@@ -182,7 +182,23 @@ body{
 #dark-mode-button{
     width: 8em;
     margin-bottom: 1em;
+    border-radius: 10px;
+
+    border: 1px solid white;
+
+    
 }
+
+#Vid-Description{
+    font-size: 1.2em;
+
+    width: 82%;
+}
+
+#Vid-Description p{
+    margin-top: 0;
+}
+
 
 /* ////// FOOTER ////// */
 
