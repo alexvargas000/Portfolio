@@ -169,7 +169,19 @@ body{
 
 #Main{
     position: relative;
-    top: 7em;
+    top: 10em;
+    align-items: center;
+}
+
+/* /// VIDEO CONTAINER /// */
+
+#Vid-Container{
+    align-items: center;
+}
+
+#dark-mode-button{
+    width: 8em;
+    margin-bottom: 1em;
 }
 
 /* ////// FOOTER ////// */

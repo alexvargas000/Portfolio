@@ -149,7 +149,6 @@ body{
 
 #Header-Nav-Bar{
     position: fixed;
-    background-color: #364c75;
     display: none;
 
     z-index: 20;
