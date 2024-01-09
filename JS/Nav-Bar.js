@@ -1,7 +1,7 @@
 // LOGO TAKES YOU HOME
 
 $("#Logo").click(function(){
-    window.open("https://avargas.org/index");
+    window.open("https://avargas.org/index", "_self");
 })
 
 // WORKS NAV BAR
