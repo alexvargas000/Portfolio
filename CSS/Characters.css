@@ -266,13 +266,29 @@ body{
         justify-content: space-evenly;
     }
 
-    .Menu-item{
-        width: 20em;
-        margin: 1em auto;
-    }
-
     .Project-Header{
         font-size: 1.5em;
+    }
+
+    #Main{
+        top: 5em;
+    }
+
+    .Character{
+        height: 10em;
+    }
+
+    .Character-image{
+        width: 100%;
+    }
+
+    .Character-image img{
+        width: 115%;
+    }
+
+    .Character-writing h1{
+        width: 1em;
+        font-size: .5em;
     }
 
 
