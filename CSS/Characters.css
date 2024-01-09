@@ -179,6 +179,7 @@ body{
 
 .Character{
     height: 20em;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
@@ -188,6 +189,10 @@ body{
     overflow: hidden;
 
     transition: all 2s;
+}
+
+.Character:hover{
+    width: 110%;
 }
 
 .Character *{
@@ -307,6 +312,8 @@ body{
 
 @media (max-width: 830px){
 
+    /* /// HEADER /// */
+
     #Header{
         height: 5em;
     }
@@ -329,27 +336,45 @@ body{
         font-size: 1.5em;
     }
 
+        /* /// MAIN CONTENT /// */
+
     #Main{
         top: 5em;
     }
 
     .Character{
         height: 10em;
+        justify-content: right;
     }
 
-    .Character-image{
+    .Character:hover{
         width: 100%;
     }
 
+    .Character-image{
+        height: 100%;
+        width: 100%;
+
+        overflow: hidden;
+    }
+
     .Character-image img{
-        width: 115%;
+        width: 130%;
+    }
+
+    .Character-writing{
+        height: 100%;
+
+        margin: auto .2em;
     }
 
     .Character-writing h1{
-        width: 1em;
         font-size: .5em;
+        text-align: center;
+
     }
 
+    /* /// FOOTER /// */
 
     #Footer-Left{
         font-size: small;

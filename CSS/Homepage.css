@@ -202,6 +202,10 @@ body{
     transition: all .5s;
 }
 
+.Menu-item:hover{
+    width: 26em;
+}
+
 .Menu-item h1{
     background-color: transparent;
 }
@@ -235,6 +239,10 @@ body{
     border-radius: 20px;
 
     transition: all .5s;
+}
+
+#Bloopers:hover{
+    width: 52em;
 }
 
 /* ////// FOOTER ////// */
@@ -373,7 +381,15 @@ body{
         margin: 1em auto;
     }
 
+    .Menu-item:hover{
+        width: 20em;
+    }
+
     #Bloopers{
+        width: 23em;
+    }
+
+    #Bloopers:hover{
         width: 23em;
     }
 

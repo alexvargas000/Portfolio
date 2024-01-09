@@ -179,6 +179,7 @@ body{
 
 .Character{
     height: 20em;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
@@ -188,6 +189,10 @@ body{
     overflow: hidden;
 
     transition: all 2s;
+}
+
+.Character:hover{
+    width: 110%;
 }
 
 .Character *{
@@ -311,6 +316,8 @@ body{
 
 @media (max-width: 830px){
 
+    /* /// HEADER /// */
+
     #Header{
         height: 5em;
     }
@@ -333,34 +340,52 @@ body{
         font-size: 1.5em;
     }
 
+        /* /// MAIN CONTENT /// */
+
     #Main{
         top: 5em;
     }
 
     .Character{
         height: 10em;
+        justify-content: right;
     }
 
-    .Character-image{
+    .Character:hover{
         width: 100%;
     }
 
+    .Character-image{
+        height: 100%;
+        width: 100%;
+
+        overflow: hidden;
+    }
+
     .Character-image img{
-        width: 115%;
-    }
-
-    .Character-writing h1, p{
-        width: 1em;
-        font-size: .5em;
-    }
-
-    .Character-writing p{
-        line-height: 100%;
+        width: 100%;
     }
 
     .Character-writing{
-        margin-left: 1.5em;
+        height: 100%;
+
+        margin: auto .2em;
+        line-height: 70%;
     }
+
+    .Character-writing h1{
+        font-size: .5em;
+        text-align: center;
+
+    }
+
+    .Character-writing p{
+        font-size: .5em;
+        text-align: center;
+
+    }
+
+    /* /// FOOTER /// */
 
     #Footer-Left{
         font-size: small;
@@ -387,7 +412,7 @@ body{
         
             height: 2em;
             width: 2em;
-            z-index: 40;
+            z-index: 40; 
         }
     
         #Mobile-Menu{
