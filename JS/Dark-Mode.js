@@ -13,7 +13,7 @@ $("#dark-mode-button").click(function(){
         darkModeOn = true;
         $('#dark-mode-button').html('Turn Lights On');
     } else {
-        $("*").css('background-color', '#536b99');
+        $("*").css('background-color', '#1f283a');
         $("#Headings").css('background-color', 'transparent');
         $("#Header-Links").css('background-color', 'transparent');
         $("li").css('background-color', 'transparent');
