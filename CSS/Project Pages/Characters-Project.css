@@ -178,7 +178,7 @@ body{
 #Info-Container{
     align-items: center;
     width: 99%;
-    height: 35em;
+    height: 27em;
 }
 
 #Info-Container h1{
@@ -191,6 +191,7 @@ body{
     flex-wrap: nowrap;
 
     justify-content: space-around;
+
 }
 
 #Img-Container img{
@@ -206,6 +207,19 @@ body{
 
 #Img-Description p{
     margin-top: 0;
+}
+
+/* /// 3D CONTAINER ///*/
+
+#ED-Model-Container {
+    height: 20em;
+    width: 100%;
+}
+
+#ED-Model-Container model-viewer{
+
+    height: 20em;
+    width: 100%;
 }
 
 /* /// RELATED /// */
@@ -382,6 +396,19 @@ body{
     
         width: 82%;
         margin-top: 1em;
+    }
+
+    /* /// 3D MODEL /// */
+
+    #ED-Model-Container {
+        height: 20em;
+        width: 100%;
+    }
+    
+    #ED-Model-Container model-viewer{
+    
+        height: 20em;
+        width: 100%;
     }
 
     /* /// RELATED /// */
