@@ -262,7 +262,7 @@ body{
 
 .Related-Work{
     height: 20em;
-    width: 20em;
+    width: 40em;
 
     margin: 0 1em;
 
@@ -471,6 +471,8 @@ body{
 
     .Related-Work{
         margin: 1em 0;
+
+        width: 20em;
     }
 
     /* /// FOOTER /// */
