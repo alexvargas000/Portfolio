@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alex Vargas Diaz - Hale</title>
+    <link rel="stylesheet" href="/CSS/Project Pages/Characters-Project.css">
+    <link rel="icon" type="image/png" href="../../Assets/Browser Icon/Dog.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- 3D-Model Viewer Code -->
+     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+</head>
+<body>
+
+    <!-- ////// HEADER ////// -->
+    
+    <div id="Header">
+        <div class="Column-NS">
+            <div id="Logo">
+                <img src="../../Assets/Logos/Logo ver. 1.png" alt="">
+            </div>
+            <div id="Headings">
+                <ul class="Row" id="Header-Links">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../Contact.html">Contact</a></li>
+                    <li><a href="../../About-Me.html">About Me</a></li>
+                    <li id="Nav-Activate">Works</li>
+                    <li><a href="../../Assets/Resume/Alex Vargas Resume Updated.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="Header-Nav-Bar">
+        <ul class="Column">
+            <li><a href="../../Short-Films.html">Short Films</a></li>
+            <li><a href="../../Characters.html">Characters</a></li>
+            <li><a href="../../Modeling.html">Modeling</a></li>
+        </ul>
+    </div>
+
+    <!-- ////// MAIN CONTENT ////// -->
+    
+    <div id="Main" class="Column">
+
+        <!-- /// IMAGES /// -->
+
+        <div id="Info-Container" class="Column">
+            <div id="Img-Container">
+                <img src="../../Assets/Characters/Rem/Project-Images/Wireframe Shot.webp" alt="">
+                <img src="../../Assets/Characters/Rem/Project-Images/Material.webp" alt="">
+                <img src="../../Assets/Characters/Rem/Project-Images/Pose 1.png" alt="">
+                <img src="../../Assets/Characters/Rem/Project-Images/Pose 2.png" alt="">
+            </div>
+            <h1>Hale - from "Space Girl"</h1>
+        </div>
+
+<!-- /// IMAGE SAFETY DIV /// -->
+
+        <div id="Image-Safety">
+
+        </div>
+
+
+        <!-- /// 3D MODEL /// -->
+
+        <div id="ED-Model-Container">
+            <model-viewer src="../../Assets/Characters/Hale/3D Model/Hale.glb" ar ar-modes="webxr scene-viewer quick-look" 
+            camera-controls  disable-zoom shadow-intensity="0.66" environment-image="../../Assets/3D Models/HDRIs/Dreamy Sky.jpeg" 
+            autoplay exposure="0.89" shadow-softness="0.82" tone-mapping="agx" camera-orbit="-26.18deg 73.82deg 17.32m" field-of-view="30deg">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+            </model-viewer>
+        </div>
+
+        <!-- /// DESCRIPTION /// -->
+
+        <div id="Img-Description">
+            <p>
+                Space Girl takes place in a fictional space where an austronaut (Rem) is on her way back to her planet. 
+                While on her journey, her ship runs into some unforeseen problems and Rem is left to fix her ship 
+                figure out what could have happened to it. 
+            </p>
+            <p>
+                Character modeled in Blender <br>
+                Animated in Maya <br>
+                Textured in Substance Paint 
+            </p>
+        </div>
+
+        <!-- /// DOCUMENTATION /// -->
+
+        <!-- /// FEATURED IN /// -->
+
+        <div class="Column">
+            <h1 style="text-align: center;">Featured In:</h1>
+            <div id="Related">
+
+                <!-- / FEATURED WORK 1 / -->
+
+                <a href="" class="Related-Work">
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ////// FOOTER ////// -->
+
+    <hr id="Footer-Line">
+    <div id="Footer">
+        <div id="Footer-Left">
+            <h3>Copyright&copy; All rights reserved.</h3>
+        </div>
+        <div id="Footer-Right">
+            <a href="https://www.linkedin.com/in/alex-vargas-b73841202/" target="_blank">
+                <img src="../../Assets/Icons/Logos/LinkedIn@8x.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/vossadova/" target="_blank">
+                <img src="../../Assets/Icons/Logos/Instagram@8x.png" alt="">
+            </a>
+            <a href="https://www.reddit.com/user/VossaDova" target="_blank">
+                <img src="../../Assets/Icons/Logos/Reddit@8x.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/channel/UCKzhFXjuLBtlVrLZlfdV_PQ" target="_blank">
+                <img src="../../Assets/Icons/Logos/Youtube@8x.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <!-- ////// MOBILE MENU ////// -->
+
+    <div id="Menu-Button" class="Open-Mobile-Menu">
+
+    </div>
+
+    <div id="Mobile-Menu">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../Contact.html">Contact</a></li>
+            <li><a href="../../About-Me.html">About Me</a></li>
+            <li id="Works-Menu-Mobile">Works</li>
+                <li class="Works-Menu-Item"><a href="../../Short-Films.html">Short Films</a></li>
+                <li class="Works-Menu-Item"><a href="../../Characters.html">Characters</a></li>
+                <li class="Works-Menu-Item"><a href="../../Modeling.html">Modeling</a></li>
+            <li><a href="../../Assets/Resume/Alex Vargas Resume Updated.pdf">Resume</a></li>
+        </ul>
+    </div>
+
+    <!-- INSERT SCRIPTS BELOW -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="../../JS/Nav-Bar.js"></script>
+    <script src="../../JS/Image-Zoom.js"></script>
+</body>
+</html>
