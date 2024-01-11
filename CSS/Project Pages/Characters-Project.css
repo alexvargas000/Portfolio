@@ -196,6 +196,12 @@ body{
 
 #Img-Container img{
     width: 25%;
+    border: 1px transparent solid;
+    border-radius: 10px;
+}
+
+#Img-Container img:hover{
+    border: 1px solid white;
 }
 
 #Img-Description{
@@ -220,6 +226,28 @@ body{
 
     height: 20em;
     width: 100%;
+}
+
+/* /// IMAGE ZOOM /// */
+
+.Image-Zoom{
+    position: fixed;
+    top: 10em;
+
+    z-index: 100;
+}
+
+#Image-Safety{
+    display: none;
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.423);
+    z-index: 99;
 }
 
 /* /// RELATED /// */
@@ -389,6 +417,17 @@ body{
     #Img-Container img{
         width: 40%;
         margin: .1em;
+
+        border: 0px transparent solid;
+
+        border-radius: 10px;
+    }
+
+    #Img-Container img:hover{
+        width: 40%;
+        margin: .1em;
+
+        border: 0px transparent solid;
     }
 
     #Img-Description{
@@ -396,6 +435,19 @@ body{
     
         width: 82%;
         margin-top: 1em;
+    }
+
+    #Image-Safety{
+        display: none;
+    
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    
+        background-color: rgba(0, 0, 0, 0.423);
+        z-index: 99;
     }
 
     /* /// 3D MODEL /// */
