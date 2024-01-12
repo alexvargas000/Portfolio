@@ -190,7 +190,7 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
 
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
