@@ -6,9 +6,9 @@ $(window).resize(function(){
     w = $(window).width();
 
     if(w <= 600){
-        $("img").css('width', '45%');
+        $(".project-pic").css('width', '45%');
     } else if(w >= 601){
-        $("img").css('width', '25%');
+        $(".project-pic").css('width', '25%');
     }
 
 
@@ -42,14 +42,14 @@ $("img").click(function(){
 });
 
 $("#Image-Safety").click(function(){
-    $("img").removeClass("Image-Zoom");
-    $("img").css('width', '25%');
+    $(".project-pic").removeClass("Image-Zoom");
+    $(".project-pic").css('width', '25%');
     imageZoomed = false;
 
     $("#Image-Safety").css('display', 'none');
 
     if(w <= 600){
-        $("img").css('width', '40%');
+        $(".project-pic").css('width', '40%');
     }
 
 });
