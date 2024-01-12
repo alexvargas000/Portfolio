@@ -289,9 +289,11 @@ body{
 }
 
 #Featured-3{
-    background-image: url("../../Assets/Short Films/Space Girl/Space-Girl-Menu-Img.webp");
+    background-image: url("../../Assets/Short Films/BMO/BMO-Menu-Img.webp");
     background-size: cover;
+    background-position: 1em;
 }
+
 
 
 /* ////// FOOTER ////// */
