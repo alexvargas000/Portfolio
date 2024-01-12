@@ -268,6 +268,29 @@ body{
 
     border-radius: 20px;
     border: 1px black solid;
+
+}
+
+.Related-Work h1{
+    text-align: center;
+    background-color: transparent;
+}
+
+#Featured-1{
+    background-image: url("../../Assets/Short Films/Space Girl/Space-Girl-Menu-Img.webp");
+    background-size: cover;
+    background-position: 1em;
+}
+
+#Featured-2{
+    background-image: url("../../Assets/Short Films/Space Girl/Space-Girl-Menu-Img.webp");
+    background-size: cover;
+    background-position: 1em;
+}
+
+#Featured-3{
+    background-image: url("../../Assets/Short Films/Space Girl/Space-Girl-Menu-Img.webp");
+    background-size: cover;
 }
 
 

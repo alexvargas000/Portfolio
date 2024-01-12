@@ -1,9 +1,3 @@
-// LOGO TAKES YOU HOME
-
-$("#Logo").click(function(){
-    window.open("https://avargas.org/index", "_self");
-})
-
 // WORKS NAV BAR
 var worksNavHover = $("#Nav-Activate");
 var worksNav = $("#Header-Nav-Bar");
