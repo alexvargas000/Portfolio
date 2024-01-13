@@ -196,6 +196,14 @@ body{
     border-radius: 10px;
 }
 
+    /* /// Message /// */
+
+    #Message{
+        font-size: 1.5em;
+
+        text-align: center;
+    }
+
 /* ////// FOOTER ////// */
 
 #Footer-Line{
@@ -354,6 +362,14 @@ body{
         border-radius: 10px;
 
     }
+
+    /* /// Message /// */
+
+    #Message{
+        font-size: 1.2em;
+        margin: 0 1em;
+    }
+
 
     /* /// FOOTER /// */
 
