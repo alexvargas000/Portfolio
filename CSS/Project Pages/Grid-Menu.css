@@ -6,6 +6,50 @@
     align-items: center;
 }
 
+/* /// MENU /// */
+
+#Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 10em;
+}
+
+.menu-item{
+    width: 23%;
+    height: 12em;
+    margin: .5em .5em;
+
+    border: 1px transparent solid;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-item:hover{
+    border: 1px white solid;
+}
+
+.menu-item h1{
+    position: absolute;
+    top: .7em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 1.5em;
+
+    background-color: transparent;
+}
+
+.menu-item img{
+    width: 100%;
+}
+
 /* ///// RESPONSIVE DESIGN ///// */
 
 @media (max-width: 830px){
@@ -19,5 +63,22 @@
     .Project-Header{
         font-size: 1em;
         text-align: center;
+    }
+
+    /* /// MENU /// */
+
+    .menu-item{
+        width: 45%;
+        height: 10em;
+        margin: .7em .5em;
+    }
+
+    .menu-item h1{
+        font-size: 1.2em;
+        width: 90%;
+    }
+
+    .menu-item img{
+        width: 100%;
     }
 }
