@@ -169,90 +169,32 @@ body{
 
 #Main{
     position: relative;
-    top: 10em;
-    align-items: center;
+    top: 8em;
 }
 
-/* /// VIDEO CONTAINER /// */
+/* ///// BIO ///// */
 
-#Vid-Container{
-    align-items: center;
-    width: 99%;
-    height: 35em;
-}
-
-#Vid-Container iframe{
-    /* width: 1024px;
-    height: 450px; */
-
-    width: 100%;
-    height: 100%;
-}
-
-#dark-mode-button{
-    width: 8em;
-    margin-bottom: 1em;
-    border-radius: 10px;
-
-    border: 1px solid white;
-
-    
-}
-
-#Vid-Description{
-    font-size: 1.2em;
-
-    width: 82%;
-}
-
-#Vid-Description p{
-    margin-top: 0;
-}
-
-/* /// RELATED /// */
-
-#Related{
+#Bio{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
-    margin-bottom: 2em;
+    justify-content: space-evenly;
 }
 
-.Related-Work{
-    height: 20em;
-    width: 40em;
+#Writing{
+    width: 40%;
+    font-size: larger;
+}
 
-    margin: 0 1em;
-
-    border-radius: 20px;
-    border: 1px black solid;
+#Pic{
+    width: 30em;
+    margin-top: 2em;
 
 }
 
-.Related-Work h1{
-    text-align: center;
-    background-color: transparent;
+#Pic img{
+    width: 100%;
+    border-radius: 10px;
 }
-
-#Related-1{
-    background-image: url("../../Assets/Characters/Rem/Rem-Menu-Img.webp");
-    background-size: cover;
-    background-position: 1em;
-}
-
-#Related-2{
-    background-image: url("../../Assets/Characters/BMO/Menu-Img.webp");
-    background-size: cover;
-    background-position: 1em;
-}
-
-#Related-3{
-    background-image: url("../../Assets/Short Films/BMO/BMO-Menu-Img.webp");
-    background-size: cover;
-    background-position: 1em;
-}
-
 
 /* ////// FOOTER ////// */
 
@@ -351,8 +293,6 @@ body{
 
 @media (max-width: 830px){
 
-    /* /// HEADER /// */
-
     #Header{
         height: 5em;
     }
@@ -371,10 +311,37 @@ body{
         justify-content: space-evenly;
     }
 
-    /* /// MAIN /// */
-
     #Main{
         top: 5em;
+    }
+
+    #Main-Item{
+        width: 22em;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #Main-Item iframe{
+        width: 22em;
+        border-radius: 10px;
+        margin: 1em;
+    }
+
+    .Menu-item{
+        width: 20em;
+        margin: 1em auto;
+    }
+
+    .Menu-item:hover{
+        width: 20em;
+    }
+
+    #Bloopers{
+        width: 23em;
+    }
+
+    #Bloopers:hover{
+        width: 23em;
     }
 
     .Project-Header{
@@ -382,38 +349,6 @@ body{
         text-align: center;
     }
 
-    /* /// VIDEO CONTAINER /// */
-
-    #Vid-Container{
-        width: 100%;
-        height: 25em;
-    }
-
-    /* /// RELATED /// */
-
-    #Related{
-        flex-direction: column;
-    }
-
-    .Related-Work{
-        margin: 1em 0;
-
-        width: 20em;
-    }
-
-    #Related-1{
-        background-position: 0;
-    }
-
-    #Related-2{
-        background-position: 0;
-    }
-
-    #Related-3{
-        background-position: 0;
-    }
-
-    /* /// FOOTER /// */
 
     #Footer-Left{
         font-size: small;
