@@ -127,6 +127,32 @@
     background-position: 1em;
 }
 
+.menu-item{
+    width: 40em;
+    height: 20em;
+    margin: .5em .5em;
+
+    border: 1px transparent solid;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-item h1{
+    position: absolute;
+    top: .7em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 3em;
+
+    background-color: transparent;
+}
+
+.menu-item img{
+    width: 100%;
+}
+
 /* ///// RESPONSIVE DESIGN ///// */
 
 @media (max-width: 830px){
@@ -221,6 +247,26 @@
         margin: 1em 0;
 
         width: 20em;
+    }
+
+    .menu-item{
+        width: 22em;
+        height: 17em;
+    }
+    
+    .menu-item h1{
+        position: absolute;
+        top: .7em;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        font-size: 3em;
+    
+        background-color: transparent;
+    }
+    
+    .menu-item img{
+        width: 100%;
     }
 
 }
