@@ -29,7 +29,7 @@ $(".project-pic").click(function(){
 
     } else {
             $(this).removeClass("Image-Zoom");
-            $(this).css('width', '25%');
+            $(this).css('width', '20%');
             imageZoomed = false;
 
             $("#Image-Safety").css('display', 'none');
@@ -43,7 +43,7 @@ $(".project-pic").click(function(){
 
 $("#Image-Safety").click(function(){
     $(".project-pic").removeClass("Image-Zoom");
-    $(".project-pic").css('width', '25%');
+    $(".project-pic").css('width', '20%');
     imageZoomed = false;
 
     $("#Image-Safety").css('display', 'none');

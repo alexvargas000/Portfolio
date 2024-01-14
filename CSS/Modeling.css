@@ -44,6 +44,7 @@
 
 .Character-image{
     width: 120%;
+    overflow: hidden;
 }
 
 .Character-image img{
