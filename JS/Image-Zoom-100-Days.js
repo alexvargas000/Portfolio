@@ -8,7 +8,7 @@ $(window).resize(function(){
     if(w <= 600){
         $(".project-pic").css('width', '40%');
     } else if(w >= 601){
-        $(".project-pic").css('width', '25%');
+        $(".project-pic").css('width', '20%');
     }
 
 
