@@ -51,6 +51,12 @@
     width: 100%;
 }
 
+/* /// INTRO /// */
+
+#Intro{
+    text-align: center;
+}
+
 /* /// IMAGES /// */
 
 #Image-Container{
@@ -70,6 +76,8 @@
     margin: .1em;
     position: relative;
     border: 1px solid transparent;
+
+    background-color: transparent;
 }
 
 .project-pic:hover{
@@ -135,6 +143,15 @@
         width: 100%;
     }
 
+    /* /// INTRO /// */
+
+#Intro{
+    text-align: center;
+    font-size: .6em;
+    margin: 0 3em;
+}
+
+
     /* /// IMAGES /// */
 
     #Img-Container{
@@ -143,5 +160,10 @@
 
     .project-pic:hover{
         border: 1px solid transparent;
+    }
+
+    .project-pic{
+        width: 40%;
+        background-color: transparent;
     }
 }
