@@ -104,7 +104,7 @@
 }
 
 .menu-item{
-    width: 40em;
+    width: 24em;
     height: 20em;
     margin: .5em .5em;
 
@@ -117,7 +117,7 @@
 }
 
 .menu-item:hover{
-    width: 42em;
+    width: 26em;
 
 }
 
