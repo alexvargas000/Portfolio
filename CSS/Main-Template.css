@@ -304,9 +304,11 @@ body{
         top: 1.5em;
         right: 1.5em;
     
-        height: 2em;
-        width: 2em;
+        height: 1.7em;
+        width: 1.7em;
+
         z-index: 40;
+
     }
 
     #Mobile-Menu{
@@ -339,6 +341,12 @@ body{
     .Works-Menu-Item{
         display: none;
         font-size: .7em;
+
+    }
+
+    .Works-Menu-Item a{
+        color: rgb(255, 242, 205);
+
     }
 
 }

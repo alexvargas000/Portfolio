@@ -114,6 +114,18 @@
         height: 25em;
     }
 
+    #dark-mode-button{
+        width: 8em;
+        height: 4em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border-radius: 10px;
+    
+        border: 1px solid white;
+    
+        
+    }
+
     /* /// RELATED /// */
 
     #Related{
