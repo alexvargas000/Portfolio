@@ -48,3 +48,9 @@ $("#Works-Menu-Mobile").click(function(){
     }
 
 });
+
+/// STOP REFRESH ///
+
+function stopRefresh(){
+    event.preventDefault();
+};
