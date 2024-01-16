@@ -29,6 +29,8 @@
     border-radius: 10px;
     overflow: hidden;
     position: relative;
+
+    transition: all .2s;
 }
 
 .menu-item:hover{
@@ -78,6 +80,8 @@
     border: 1px solid transparent;
 
     background-color: transparent;
+
+    transition: border .2s;
 }
 
 .project-pic:hover{

@@ -11,7 +11,7 @@
 #Info-Container{
     align-items: center;
     width: 99%;
-    height: 27em;
+    height: 35em;
 }
 
 #Info-Container h1{
@@ -23,6 +23,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
 
+    width: 100em;
+
     justify-content: space-evenly;
 
 }
@@ -31,6 +33,8 @@
     width: 25%;
     border: 1px transparent solid;
     border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     transition: all .2s;
 }
@@ -43,31 +47,18 @@
     font-size: 1.2em;
 
     width: 82%;
-    margin-top: 0em;
+    margin-top: 2em;
 }
 
 #Img-Description p{
     margin-top: 0;
 }
 
-/* /// 3D CONTAINER ///*/
-
-#ED-Model-Container {
-    height: 20em;
-    width: 100%;
-}
-
-#ED-Model-Container model-viewer{
-
-    height: 20em;
-    width: 100%;
-}
-
 /* /// IMAGE ZOOM /// */
 
 .Image-Zoom{
     position: fixed;
-    top: 10em;
+    top: 1em;
 
     z-index: 100;
 }
@@ -105,34 +96,11 @@
     border: 1px black solid;
 
     transition: all .5s;
-
-}
-
-.Related-Work:hover{
-    width: 42em;
 }
 
 .Related-Work h1{
     text-align: center;
     background-color: transparent;
-}
-
-#Featured-1{
-    background-image: url("../../Assets/Short Films/Space Girl/Space-Girl-Menu-Img.webp");
-    background-size: cover;
-    background-position: 1em;
-}
-
-#Featured-2{
-    background-image: url("../../Assets/Short Films/Space Girl/Space-Girl-Menu-Img.webp");
-    background-size: cover;
-    background-position: 1em;
-}
-
-#Featured-3{
-    background-image: url("../../Assets/Short Films/BMO/BMO-Menu-Img.webp");
-    background-size: cover;
-    background-position: 1em;
 }
 
 .menu-item{
@@ -145,7 +113,7 @@
     overflow: hidden;
     position: relative;
 
-    transition: all .5s;
+    transition: all .5s ;
 }
 
 .menu-item:hover{
@@ -192,7 +160,9 @@
 
     #Info-Container{
         width: 100%;
-        height: 25em;
+        height: 32em;
+
+        overflow: hidden;
     }
 
     #Img-Container{
@@ -200,11 +170,13 @@
         flex-direction: row;
         flex-wrap: wrap;
 
+        width: 90%;
+
         justify-content: center;
     }
 
     #Img-Container img{
-        width: 40%;
+        width: 100%;
         margin: .1em;
 
         border: 0px transparent solid;
@@ -226,31 +198,27 @@
         margin-top: 1em;
     }
 
-    #Image-Safety{
-        display: none;
-    
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-    
-        background-color: rgba(0, 0, 0, 0.423);
-        z-index: 99;
-    }
+    /* /// IMAGE ZOOM /// */
 
-    /* /// 3D MODEL /// */
+.Image-Zoom{
+    position: fixed;
+    top: 10em;
 
-    #ED-Model-Container {
-        height: 20em;
-        width: 100%;
-    }
-    
-    #ED-Model-Container model-viewer{
-    
-        height: 20em;
-        width: 100%;
-    }
+    z-index: 100;
+}
+
+#Image-Safety{
+    display: none;
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.423);
+    z-index: 99;
+}
 
     /* /// RELATED /// */
 
@@ -264,10 +232,6 @@
         width: 20em;
     }
 
-    .Related-Work:hover{
-        width: 20em;
-    }
-
     .menu-item{
         width: 22em;
         height: 17em;
@@ -275,6 +239,7 @@
 
     .menu-item:hover{
         width: 22em;
+    
     }
     
     .menu-item h1{

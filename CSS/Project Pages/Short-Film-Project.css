@@ -50,6 +50,7 @@
     justify-content: space-around;
 
     margin-bottom: 2em;
+
 }
 
 .Related-Work{
@@ -61,6 +62,12 @@
     border-radius: 20px;
     border: 1px black solid;
 
+    transition: all .5s;
+
+}
+
+.Related-Work:hover{
+    width: 42em;
 }
 
 .Related-Work h1{
@@ -135,6 +142,10 @@
     .Related-Work{
         margin: 1em 0;
 
+        width: 20em;
+    }
+
+    .Related-Work:hover{
         width: 20em;
     }
 
