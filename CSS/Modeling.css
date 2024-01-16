@@ -87,7 +87,8 @@
     }
 
     .Character-image img{
-        width: 100%;
+        width: 130%;
+        right: 1em;
     }
 
     .Character-writing{
