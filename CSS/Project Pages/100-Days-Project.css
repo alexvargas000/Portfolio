@@ -69,7 +69,7 @@
     flex-wrap: wrap;
 }
 
-.project-pic{
+.day-pic{
     width: 20%;
 
     overflow: hidden;
@@ -84,11 +84,11 @@
     transition: border .2s;
 }
 
-.project-pic:hover{
+.day-pic:hover{
     border: 1px solid white;
 }
 
-.project-pic img{
+.day-pic img{
     height: 100%;
     width: 100%;
 
@@ -164,11 +164,11 @@
         margin: 0 1em;
     }
 
-    .project-pic:hover{
+    .day-pic:hover{
         border: 1px solid transparent;
     }
 
-    .project-pic{
+    .day-pic{
         width: 40%;
         background-color: transparent;
     }
