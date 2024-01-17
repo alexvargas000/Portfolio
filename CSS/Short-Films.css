@@ -60,6 +60,14 @@
         top: 5em;
     }
 
+    #Footer-Line{
+        top: 6em;
+    }
+
+    #Footer{
+        margin-top: 4em;
+    }
+
     .Character{
         height: 10em;
         justify-content: right;
