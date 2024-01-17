@@ -1,0 +1,113 @@
+/* ///// MAIN CONTENT ///// */
+
+#Main{
+    position: relative;
+    top: 10em;
+}
+
+/* ////// TIMELINE ////// */
+
+#Timeline{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+#Timeline-Graphics{
+    height: 50em;
+    width: 1em;
+
+    border-right: 5px solid white;
+
+}
+
+#Timeline-Content{
+    height: 50em;
+    width: 50em;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* /// ITEMS /// */
+
+.time-item{
+    width: 50%;
+    height: 13em;
+
+    display: flex;
+    flex-direction: row;
+
+
+    overflow: hidden;
+}
+
+.time-item-2{
+    width: 80%;
+    height: 13em;
+
+    display: flex;
+    flex-direction: row;
+
+
+    overflow: hidden;
+}
+
+.time-item hr{
+    width: 30%;
+    height: .2em;
+
+    margin: auto 0;
+
+    background-color: white;
+
+    border: 1px solid transparent;
+    
+}
+
+.time-item-2 hr{
+    width: 80%;
+    height: .2em;
+
+    margin: auto 0;
+
+    background-color: white;
+
+    border: 1px solid transparent;
+    
+}
+
+.time-link{
+    position: relative;
+    width: 70%;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+    margin: .2em;
+
+}
+
+.time-link img{
+    width: 100%;
+
+}
+
+
+
+/* ///// RESPONSIVE DESIGN ///// */
+
+@media (max-width: 830px){
+
+    .Row-S2{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #Main{
+        top: 6em;
+    }
+
+}
