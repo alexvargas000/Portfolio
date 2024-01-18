@@ -11,11 +11,22 @@
     display: flex;
     flex-direction: row;
 
+    height: 80em;
+
     justify-content: center;
 }
 
+#Timeline-Info{
+    height: 100%;
+    width: 10em;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
 #Timeline-Graphics{
-    height: 50em;
+    height: 100%;
     width: 1em;
 
     border-right: 5px solid white;
@@ -23,7 +34,7 @@
 }
 
 #Timeline-Content{
-    height: 50em;
+    height: 100%;
     width: 50em;
 
     display: flex;
@@ -33,9 +44,29 @@
 
 /* /// ITEMS /// */
 
+.info-item{
+    position: relative;
+
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: row;
+
+    overflow: hidden;
+
+
+    align-items: center;
+    margin: .5em;
+
+    text-align: center;
+}
+
 .time-item{
-    width: 50%;
-    height: 13em;
+    width: 60%;
+    height: 30em;
+
+    margin: 1em 0;
 
     display: flex;
     flex-direction: row;
@@ -45,7 +76,7 @@
 }
 
 .time-item-2{
-    width: 80%;
+    width: 70%;
     height: 13em;
 
     display: flex;
@@ -55,8 +86,31 @@
     overflow: hidden;
 }
 
+.time-item-3{
+    width: 45%;
+    height: 13em;
+
+    display: flex;
+    flex-direction: row;
+
+
+    overflow: hidden;
+}
+
+.time-header{
+    width: 100%;
+    height: 13em;
+
+    display: flex;
+    flex-direction: row;
+
+
+    overflow: hidden;
+
+}
+
 .time-item hr{
-    width: 30%;
+    width: 50%;
     height: .2em;
 
     margin: auto 0;
@@ -68,7 +122,7 @@
 }
 
 .time-item-2 hr{
-    width: 80%;
+    width: 70%;
     height: .2em;
 
     margin: auto 0;
@@ -79,20 +133,80 @@
     
 }
 
+.time-item-3 hr{
+    width: 2%;
+    height: .2em;
+
+    margin: auto 0;
+
+    background-color: white;
+
+    border: 1px solid transparent;
+    
+}
+
+.time-header hr{
+    width: 10%;
+    height: .2em;
+
+    margin: auto 0;
+
+    background-color: white;
+
+    border: 1px solid transparent;
+    
+}
+
+.time-header h1{
+    margin: auto .5em;
+    width: 100%;
+    font-size: 2.7em;
+
+
+}
+
+/* /// INDIVIDUAL ITEM /// */
+
 .time-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
     position: relative;
     width: 70%;
 
     border-radius: 20px;
 
     overflow: hidden;
-    margin: .2em;
+    text-align: center;
 
+    margin-bottom: .5em;
+
+    transition: all .5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.time-link:hover{
+    width: 74%;
 }
 
 .time-link img{
     width: 100%;
+}
 
+.time-link h1{
+    position: absolute;
+
+    background-color: transparent;
+    font-size: 1.7em;
+
+    width: 90%;
+
+    top: .7em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-shadow: 1px 1px 5px #000000;
 }
 
 
