@@ -75,11 +75,19 @@
 
     text-align: center;
 
-    border: 1px black solid;
     border-radius: 20px;
 
     transition: all .5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    background-image: url("/Assets/Menu Images/Timeline@8x-8.png");
+    background-size: cover;
+
+}
+
+#Bloopers h1{
+    display: block;
+    background-color: #fbb03b;
 }
 
 #Bloopers:hover{
