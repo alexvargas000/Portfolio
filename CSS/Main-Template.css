@@ -264,6 +264,7 @@ body{
 
     #Header{
         height: 5em;
+        z-index: 11;
     }
 
     #Logo{
@@ -329,6 +330,8 @@ body{
         margin: 0 auto;
 
         transition: all 1s;
+
+        z-index: 10;
 
     }
     
