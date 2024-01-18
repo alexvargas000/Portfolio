@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
 
-    height: 80em;
+    height: 320em;
 
     justify-content: center;
 }
@@ -28,6 +28,7 @@
 #Timeline-Graphics{
     height: 100%;
     width: 1em;
+
 
     border-right: 5px solid white;
 
@@ -63,32 +64,10 @@
 }
 
 .time-item{
-    width: 60%;
-    height: 30em;
+    width: 50%;
+    height: 16em;
 
     margin: 1em 0;
-
-    display: flex;
-    flex-direction: row;
-
-
-    overflow: hidden;
-}
-
-.time-item-2{
-    width: 70%;
-    height: 13em;
-
-    display: flex;
-    flex-direction: row;
-
-
-    overflow: hidden;
-}
-
-.time-item-3{
-    width: 45%;
-    height: 13em;
 
     display: flex;
     flex-direction: row;
@@ -111,30 +90,6 @@
 
 .time-item hr{
     width: 50%;
-    height: .2em;
-
-    margin: auto 0;
-
-    background-color: white;
-
-    border: 1px solid transparent;
-    
-}
-
-.time-item-2 hr{
-    width: 70%;
-    height: .2em;
-
-    margin: auto 0;
-
-    background-color: white;
-
-    border: 1px solid transparent;
-    
-}
-
-.time-item-3 hr{
-    width: 2%;
     height: .2em;
 
     margin: auto 0;
@@ -173,7 +128,7 @@
     justify-content: baseline;
 
     position: relative;
-    width: 70%;
+    width: 74%;
 
     border-radius: 20px;
 
@@ -183,15 +138,17 @@
     margin-bottom: .5em;
 
     transition: all .5s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .time-link:hover{
-    width: 74%;
+    width: 76%;
 }
 
 .time-link img{
     width: 100%;
+
+    border-radius: 20px;
+
 }
 
 .time-link h1{
@@ -222,6 +179,82 @@
 
     #Main{
         top: 6em;
+    }
+
+    /* /// TIMELINE /// */
+
+    #Timeline-Info{
+        height: 100%;
+        width: 5em;
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    #Timeline-Graphics{
+        height: 100%;
+        width: 2em;
+        border-right: 5px solid white;
+        z-index: 9;
+
+        background-color: transparent;
+    }
+    
+    #Timeline-Content{
+        height: 100%;
+        width: 50em;
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    /* /// OVERALL ITEMS /// */
+
+    .time-item{
+        width: 90%;
+        height: 16em;
+    
+        margin: 1em 0;
+    }
+
+    /* /// INDIVIDUAL ITEMS /// */
+
+    .time-header h1{
+        margin: auto .5em;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    .time-link{
+        width: 100%;
+    
+        border-radius: 20px;
+    
+        margin-bottom: .5em;
+    }
+
+    .time-link img{
+        width: 100%;
+    
+        border-radius: 20px;
+    
+    }
+    
+    .time-link h1{
+        position: absolute;
+    
+        background-color: transparent;
+        font-size: 1.7em;
+    
+        width: 90%;
+    
+        top: .7em;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        text-shadow: 1px 1px 5px #000000;
     }
 
 }

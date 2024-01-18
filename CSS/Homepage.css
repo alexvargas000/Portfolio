@@ -82,6 +82,7 @@
 
     background-image: url("/Assets/Menu Images/Timeline@8x-8.png");
     background-size: cover;
+    background-position: -1.7em;
 
 }
 
@@ -91,7 +92,7 @@
 }
 
 #Bloopers:hover{
-    width: 52em;
+    width: 51em;
 }
 
 /* ///// RESPONSIVE DESIGN ///// */
