@@ -109,7 +109,7 @@
     }
 
     #Main-Item{
-        width: 22em;
+        width: 23em;
         text-align: center;
         margin: 0 auto;
 
@@ -117,7 +117,7 @@
     }
 
     #Main-Item iframe{
-        width: 22em;
+        width: 23em;
         border-radius: 10px;
         margin: 1em;
     }
@@ -137,6 +137,8 @@
 
     #Bloopers{
         width: 23em;
+
+        overflow: hidden;
     }
 
     #Bloopers:hover{
@@ -144,13 +146,78 @@
     }
 
     .Project-Header{
-        font-size: 1em;
+        font-size: 1.2em;
         text-align: center;
+
+        line-height: 100%;
     }
 
 }
 
-@media (max-width: 1200px){
+@media (max-width: 300px) and (min-width: 0px){
+
+    .Row-S2{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #Main{
+        top: 6em;
+    }
+
+    #Main-Item{
+        width: 17em;
+        text-align: center;
+        margin: 0 auto;
+
+        height: 26em;
+    }
+
+    #Main-Item iframe{
+        width: 17em;
+        border-radius: 10px;
+        margin: 1em;
+    }
+
+    #Main-Item iframe:hover{
+        width: 17em;
+    }
+
+    .Menu-item{
+        width: 15em;
+        margin: 1em auto;
+    }
+
+    .Menu-item:hover{
+        width: 20em;
+    }
+
+    #Bloopers{
+        width: 17em;
+
+        overflow: hidden;
+    }
+
+    #Bloopers:hover{
+        width: 23em;
+    }
+
+    .Project-Header{
+        font-size: 1.2em;
+        text-align: center;
+
+        line-height: 100%;
+    }
+
+    #Footer{
+        width: 16em;
+        font-size: .9em;
+    }
+
+
+}
+
+@media (max-width: 1200px) and (min-width: 831px){
 
     #Main{
         top: 6em;
