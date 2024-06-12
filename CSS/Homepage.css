@@ -67,6 +67,40 @@
 
 /* /// TIMELINE ///  */
 
+#Latest{
+    position: relative;
+    height: 30em;
+    width: 40em;
+    margin: 2.2em auto;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    transition: all .5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    background-image: url("/Assets/Menu Images/Blue Screen.png");
+    background-size: cover;
+    background-position: 0em;
+
+}
+
+#Latest h1{
+    display: block;
+    background-color: transparent;
+}
+
+#Latest div{
+    background-color: transparent;
+}
+
+#Latest:hover{
+    width: 41em;
+}
+
+/* /// TIMELINE ///  */
+
 #Bloopers{
     position: relative;
     height: 17em;
@@ -133,6 +167,16 @@
 
     .Menu-item:hover{
         width: 20em;
+    }
+
+    #Latest{
+        width: 23em;
+
+        overflow: hidden;
+    }
+
+    #Latest:hover{
+        width: 23em;
     }
 
     #Bloopers{
